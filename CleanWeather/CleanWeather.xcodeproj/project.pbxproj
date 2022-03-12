@@ -136,6 +136,48 @@
 		231B506727DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506627DCC02B00B010C3 /* BaseNavigationViewController.swift */; };
 		231B506827DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506627DCC02B00B010C3 /* BaseNavigationViewController.swift */; };
 		231B506927DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506627DCC02B00B010C3 /* BaseNavigationViewController.swift */; };
+		231B507427DCC69000B010C3 /* CollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506D27DCC69000B010C3 /* CollectionDataSource.swift */; };
+		231B507527DCC69000B010C3 /* CollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506D27DCC69000B010C3 /* CollectionDataSource.swift */; };
+		231B507627DCC69000B010C3 /* CollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506D27DCC69000B010C3 /* CollectionDataSource.swift */; };
+		231B507727DCC69000B010C3 /* ArrayDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506E27DCC69000B010C3 /* ArrayDataProvider.swift */; };
+		231B507827DCC69000B010C3 /* ArrayDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506E27DCC69000B010C3 /* ArrayDataProvider.swift */; };
+		231B507927DCC69000B010C3 /* ArrayDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506E27DCC69000B010C3 /* ArrayDataProvider.swift */; };
+		231B507A27DCC69000B010C3 /* CollectionArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506F27DCC69000B010C3 /* CollectionArrayDataSource.swift */; };
+		231B507B27DCC69000B010C3 /* CollectionArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506F27DCC69000B010C3 /* CollectionArrayDataSource.swift */; };
+		231B507C27DCC69000B010C3 /* CollectionArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B506F27DCC69000B010C3 /* CollectionArrayDataSource.swift */; };
+		231B507D27DCC69000B010C3 /* CollectionDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B507027DCC69000B010C3 /* CollectionDataProvider.swift */; };
+		231B507E27DCC69000B010C3 /* CollectionDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B507027DCC69000B010C3 /* CollectionDataProvider.swift */; };
+		231B507F27DCC69000B010C3 /* CollectionDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B507027DCC69000B010C3 /* CollectionDataProvider.swift */; };
+		231B508027DCC69000B010C3 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B507227DCC69000B010C3 /* ConfigurableCell.swift */; };
+		231B508127DCC69000B010C3 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B507227DCC69000B010C3 /* ConfigurableCell.swift */; };
+		231B508227DCC69000B010C3 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B507227DCC69000B010C3 /* ConfigurableCell.swift */; };
+		231B508327DCC69000B010C3 /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B507327DCC69000B010C3 /* ReusableCell.swift */; };
+		231B508427DCC69000B010C3 /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B507327DCC69000B010C3 /* ReusableCell.swift */; };
+		231B508527DCC69000B010C3 /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B507327DCC69000B010C3 /* ReusableCell.swift */; };
+		231B508727DCC6C000B010C3 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B508627DCC6C000B010C3 /* BaseCollectionViewCell.swift */; };
+		231B508827DCC6C000B010C3 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B508627DCC6C000B010C3 /* BaseCollectionViewCell.swift */; };
+		231B508927DCC6C000B010C3 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B508627DCC6C000B010C3 /* BaseCollectionViewCell.swift */; };
+		231B508C27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B508B27DCC6E000B010C3 /* ForecastListingDataSource.swift */; };
+		231B508D27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B508B27DCC6E000B010C3 /* ForecastListingDataSource.swift */; };
+		231B508E27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B508B27DCC6E000B010C3 /* ForecastListingDataSource.swift */; };
+		231B509027DCC7DB00B010C3 /* ForecastListingItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B508F27DCC7DB00B010C3 /* ForecastListingItemCollectionViewCell.swift */; };
+		231B509127DCC7DB00B010C3 /* ForecastListingItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B508F27DCC7DB00B010C3 /* ForecastListingItemCollectionViewCell.swift */; };
+		231B509227DCC7DB00B010C3 /* ForecastListingItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B508F27DCC7DB00B010C3 /* ForecastListingItemCollectionViewCell.swift */; };
+		231B509427DCC87700B010C3 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B509327DCC87700B010C3 /* ReusableView.swift */; };
+		231B509527DCC87700B010C3 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B509327DCC87700B010C3 /* ReusableView.swift */; };
+		231B509627DCC87700B010C3 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B509327DCC87700B010C3 /* ReusableView.swift */; };
+		231B509827DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B509727DCCB8000B010C3 /* ForecastListingItemView.swift */; };
+		231B509927DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B509727DCCB8000B010C3 /* ForecastListingItemView.swift */; };
+		231B509A27DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B509727DCCB8000B010C3 /* ForecastListingItemView.swift */; };
+		231B509D27DCCBE300B010C3 /* ForecastListingStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B509C27DCCBE300B010C3 /* ForecastListingStyler.swift */; };
+		231B509E27DCCBE300B010C3 /* ForecastListingStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B509C27DCCBE300B010C3 /* ForecastListingStyler.swift */; };
+		231B509F27DCCBE300B010C3 /* ForecastListingStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B509C27DCCBE300B010C3 /* ForecastListingStyler.swift */; };
+		231B50A127DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A027DCCC1600B010C3 /* ForecastListingStyler+Extension.swift */; };
+		231B50A227DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A027DCCC1600B010C3 /* ForecastListingStyler+Extension.swift */; };
+		231B50A327DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A027DCCC1600B010C3 /* ForecastListingStyler+Extension.swift */; };
+		231B50A527DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A427DCCE9800B010C3 /* ForecastItemListingViewModel.swift */; };
+		231B50A627DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A427DCCE9800B010C3 /* ForecastItemListingViewModel.swift */; };
+		231B50A727DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A427DCCE9800B010C3 /* ForecastItemListingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +250,20 @@
 		231B505E27DCBE8F00B010C3 /* WeakRef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRef.swift; sourceTree = "<group>"; };
 		231B506227DCBF2900B010C3 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		231B506627DCC02B00B010C3 /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		231B506D27DCC69000B010C3 /* CollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDataSource.swift; sourceTree = "<group>"; };
+		231B506E27DCC69000B010C3 /* ArrayDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataProvider.swift; sourceTree = "<group>"; };
+		231B506F27DCC69000B010C3 /* CollectionArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionArrayDataSource.swift; sourceTree = "<group>"; };
+		231B507027DCC69000B010C3 /* CollectionDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDataProvider.swift; sourceTree = "<group>"; };
+		231B507227DCC69000B010C3 /* ConfigurableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
+		231B507327DCC69000B010C3 /* ReusableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
+		231B508627DCC6C000B010C3 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		231B508B27DCC6E000B010C3 /* ForecastListingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListingDataSource.swift; sourceTree = "<group>"; };
+		231B508F27DCC7DB00B010C3 /* ForecastListingItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListingItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		231B509327DCC87700B010C3 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		231B509727DCCB8000B010C3 /* ForecastListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListingItemView.swift; sourceTree = "<group>"; };
+		231B509C27DCCBE300B010C3 /* ForecastListingStyler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListingStyler.swift; sourceTree = "<group>"; };
+		231B50A027DCCC1600B010C3 /* ForecastListingStyler+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForecastListingStyler+Extension.swift"; sourceTree = "<group>"; };
+		231B50A427DCCE9800B010C3 /* ForecastItemListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastItemListingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +414,8 @@
 		231B4FE127DC8B5E00B010C3 /* ForecastListing */ = {
 			isa = PBXGroup;
 			children = (
+				231B509B27DCCBDB00B010C3 /* Styler */,
+				231B508A27DCC6D400B010C3 /* DataSource */,
 				231B505927DCBCFC00B010C3 /* ViewModel */,
 				231B505027DCBC6100B010C3 /* Presenter */,
 				231B504D27DCBC5300B010C3 /* Usecase */,
@@ -393,6 +451,7 @@
 		231B4FF127DC956500B010C3 /* CommonUtilites */ = {
 			isa = PBXGroup;
 			children = (
+				231B506A27DCC69000B010C3 /* CollectionViewGenericDataSource */,
 				231B500C27DCB64200B010C3 /* CoreDesign */,
 				231B500627DC96A900B010C3 /* BaseView */,
 				231B4FF227DC958D00B010C3 /* Helper */,
@@ -408,6 +467,7 @@
 				231B4FFB27DC963E00B010C3 /* Creatable.swift */,
 				231B505E27DCBE8F00B010C3 /* WeakRef.swift */,
 				231B506227DCBF2900B010C3 /* ActivityIndicator.swift */,
+				231B509327DCC87700B010C3 /* ReusableView.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -432,6 +492,7 @@
 			isa = PBXGroup;
 			children = (
 				231B500827DC96C600B010C3 /* BaseView.swift */,
+				231B508627DCC6C000B010C3 /* BaseCollectionViewCell.swift */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -466,6 +527,7 @@
 			isa = PBXGroup;
 			children = (
 				231B504027DCBB9E00B010C3 /* ForecastListingViewController.swift */,
+				231B508F27DCC7DB00B010C3 /* ForecastListingItemCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -474,6 +536,7 @@
 			isa = PBXGroup;
 			children = (
 				231B504427DCBBAF00B010C3 /* ForecastListingView.swift */,
+				231B509727DCCB8000B010C3 /* ForecastListingItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -506,8 +569,63 @@
 			isa = PBXGroup;
 			children = (
 				231B505A27DCBD0700B010C3 /* ForecastListingViewModel.swift */,
+				231B50A427DCCE9800B010C3 /* ForecastItemListingViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		231B506A27DCC69000B010C3 /* CollectionViewGenericDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				231B506B27DCC69000B010C3 /* DataSources */,
+				231B507127DCC69000B010C3 /* CellAbstractions */,
+			);
+			path = CollectionViewGenericDataSource;
+			sourceTree = "<group>";
+		};
+		231B506B27DCC69000B010C3 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				231B506C27DCC69000B010C3 /* Collection */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		231B506C27DCC69000B010C3 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				231B506D27DCC69000B010C3 /* CollectionDataSource.swift */,
+				231B506E27DCC69000B010C3 /* ArrayDataProvider.swift */,
+				231B506F27DCC69000B010C3 /* CollectionArrayDataSource.swift */,
+				231B507027DCC69000B010C3 /* CollectionDataProvider.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		231B507127DCC69000B010C3 /* CellAbstractions */ = {
+			isa = PBXGroup;
+			children = (
+				231B507227DCC69000B010C3 /* ConfigurableCell.swift */,
+				231B507327DCC69000B010C3 /* ReusableCell.swift */,
+			);
+			path = CellAbstractions;
+			sourceTree = "<group>";
+		};
+		231B508A27DCC6D400B010C3 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				231B508B27DCC6E000B010C3 /* ForecastListingDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		231B509B27DCCBDB00B010C3 /* Styler */ = {
+			isa = PBXGroup;
+			children = (
+				231B509C27DCCBE300B010C3 /* ForecastListingStyler.swift */,
+				231B50A027DCCC1600B010C3 /* ForecastListingStyler+Extension.swift */,
+			);
+			path = Styler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -708,34 +826,47 @@
 			files = (
 				231B504527DCBBAF00B010C3 /* ForecastListingView.swift in Sources */,
 				231B4FCD27DC8A0800B010C3 /* NetworkLogger.swift in Sources */,
+				231B507D27DCC69000B010C3 /* CollectionDataProvider.swift in Sources */,
 				231B506327DCBF2900B010C3 /* ActivityIndicator.swift in Sources */,
 				231B4FC927DC8A0800B010C3 /* ListingAPIRouter.swift in Sources */,
+				231B507427DCC69000B010C3 /* CollectionDataSource.swift in Sources */,
 				231B503727DCB74F00B010C3 /* LandingPageStyler.swift in Sources */,
 				231B4F7027DC712900B010C3 /* ViewController.swift in Sources */,
 				231B506727DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */,
+				231B507727DCC69000B010C3 /* ArrayDataProvider.swift in Sources */,
+				231B508027DCC69000B010C3 /* ConfigurableCell.swift in Sources */,
 				231B501D27DCB64200B010C3 /* Opacity.swift in Sources */,
+				231B50A127DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */,
 				231B4FCB27DC8A0800B010C3 /* Network.swift in Sources */,
 				231B4FCE27DC8A0800B010C3 /* Urls.swift in Sources */,
 				231B4FF827DC963000B010C3 /* SharedAlert.swift in Sources */,
 				231B502927DCB64200B010C3 /* Font.swift in Sources */,
 				231B503B27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
+				231B509827DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
 				231B502327DCB64200B010C3 /* LetterSpacing.swift in Sources */,
+				231B508C27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */,
 				231B503227DCB64200B010C3 /* Color.swift in Sources */,
 				231B505627DCBC7F00B010C3 /* ForecastListingPresenter.swift in Sources */,
 				231B502F27DCB64200B010C3 /* LightAliasColorToken.swift in Sources */,
 				231B4FCC27DC8A0800B010C3 /* RequestAdapter.swift in Sources */,
+				231B50A527DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */,
 				231B502627DCB64200B010C3 /* Theme.swift in Sources */,
 				231B504A27DCBC2400B010C3 /* MainCoordinator.swift in Sources */,
 				231B4F6C27DC712900B010C3 /* AppDelegate.swift in Sources */,
 				231B4FC827DC8A0800B010C3 /* APIConfiguration.swift in Sources */,
 				231B501727DCB64200B010C3 /* Typography.swift in Sources */,
 				231B4FF427DC959500B010C3 /* UIView+Extension.swift in Sources */,
+				231B509027DCC7DB00B010C3 /* ForecastListingItemCollectionViewCell.swift in Sources */,
 				231B505B27DCBD0700B010C3 /* ForecastListingViewModel.swift in Sources */,
+				231B508727DCC6C000B010C3 /* BaseCollectionViewCell.swift in Sources */,
 				231B505F27DCBE8F00B010C3 /* WeakRef.swift in Sources */,
 				231B4FCA27DC8A0800B010C3 /* Logger.swift in Sources */,
 				231B500927DC96C600B010C3 /* BaseView.swift in Sources */,
 				231B500327DC969F00B010C3 /* LandingPageView.swift in Sources */,
 				231B501A27DCB64200B010C3 /* FontStyle.swift in Sources */,
+				231B507A27DCC69000B010C3 /* CollectionArrayDataSource.swift in Sources */,
+				231B509D27DCCBE300B010C3 /* ForecastListingStyler.swift in Sources */,
+				231B508327DCC69000B010C3 /* ReusableCell.swift in Sources */,
 				231B505227DCBC7100B010C3 /* ForecastListingUseCase.swift in Sources */,
 				231B4F6E27DC712900B010C3 /* SceneDelegate.swift in Sources */,
 				231B4FE527DC8BEB00B010C3 /* ForecastData.swift in Sources */,
@@ -745,6 +876,7 @@
 				231B4FE727DC8FBE00B010C3 /* GenericResponse.swift in Sources */,
 				231B504127DCBB9E00B010C3 /* ForecastListingViewController.swift in Sources */,
 				231B502C27DCB64200B010C3 /* AliasFontToken.swift in Sources */,
+				231B509427DCC87700B010C3 /* ReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,34 +903,47 @@
 			files = (
 				231B504627DCBBAF00B010C3 /* ForecastListingView.swift in Sources */,
 				231B4FE827DC8FC900B010C3 /* GenericResponse.swift in Sources */,
+				231B507E27DCC69000B010C3 /* CollectionDataProvider.swift in Sources */,
 				231B506427DCBF2900B010C3 /* ActivityIndicator.swift in Sources */,
 				231B4FD227DC8B2400B010C3 /* ListingAPIRouter.swift in Sources */,
+				231B507527DCC69000B010C3 /* CollectionDataSource.swift in Sources */,
 				231B503827DCB74F00B010C3 /* LandingPageStyler.swift in Sources */,
 				231B4FEA27DC8FD700B010C3 /* ForecastData.swift in Sources */,
 				231B506827DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */,
+				231B507827DCC69000B010C3 /* ArrayDataProvider.swift in Sources */,
+				231B508127DCC69000B010C3 /* ConfigurableCell.swift in Sources */,
 				231B501E27DCB64200B010C3 /* Opacity.swift in Sources */,
+				231B50A227DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */,
 				231B4FD127DC8B2400B010C3 /* NetworkLogger.swift in Sources */,
 				231B4F9D27DC73DC00B010C3 /* ViewController.swift in Sources */,
 				231B4FF927DC963000B010C3 /* SharedAlert.swift in Sources */,
 				231B502A27DCB64200B010C3 /* Font.swift in Sources */,
 				231B503C27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
+				231B509927DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
 				231B502427DCB64200B010C3 /* LetterSpacing.swift in Sources */,
+				231B508D27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */,
 				231B503327DCB64200B010C3 /* Color.swift in Sources */,
 				231B505727DCBC7F00B010C3 /* ForecastListingPresenter.swift in Sources */,
 				231B503027DCB64200B010C3 /* LightAliasColorToken.swift in Sources */,
 				231B4FD427DC8B2400B010C3 /* APIConfiguration.swift in Sources */,
+				231B50A627DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */,
 				231B502727DCB64200B010C3 /* Theme.swift in Sources */,
 				231B504B27DCBC2400B010C3 /* MainCoordinator.swift in Sources */,
 				231B4FD727DC8B2400B010C3 /* Urls.swift in Sources */,
 				231B4FD527DC8B2400B010C3 /* Logger.swift in Sources */,
 				231B501827DCB64200B010C3 /* Typography.swift in Sources */,
 				231B4FF527DC95BC00B010C3 /* UIView+Extension.swift in Sources */,
+				231B509127DCC7DB00B010C3 /* ForecastListingItemCollectionViewCell.swift in Sources */,
 				231B505C27DCBD0700B010C3 /* ForecastListingViewModel.swift in Sources */,
+				231B508827DCC6C000B010C3 /* BaseCollectionViewCell.swift in Sources */,
 				231B506027DCBE8F00B010C3 /* WeakRef.swift in Sources */,
 				231B4F9E27DC73DC00B010C3 /* AppDelegate.swift in Sources */,
 				231B500A27DC96C600B010C3 /* BaseView.swift in Sources */,
 				231B500427DC969F00B010C3 /* LandingPageView.swift in Sources */,
 				231B501B27DCB64200B010C3 /* FontStyle.swift in Sources */,
+				231B507B27DCC69000B010C3 /* CollectionArrayDataSource.swift in Sources */,
+				231B509E27DCCBE300B010C3 /* ForecastListingStyler.swift in Sources */,
+				231B508427DCC69000B010C3 /* ReusableCell.swift in Sources */,
 				231B505327DCBC7100B010C3 /* ForecastListingUseCase.swift in Sources */,
 				231B4F9F27DC73DC00B010C3 /* SceneDelegate.swift in Sources */,
 				231B4FD627DC8B2400B010C3 /* RequestAdapter.swift in Sources */,
@@ -808,6 +953,7 @@
 				231B4FCF27DC8B1E00B010C3 /* NetworkClient.swift in Sources */,
 				231B504227DCBB9E00B010C3 /* ForecastListingViewController.swift in Sources */,
 				231B502D27DCB64200B010C3 /* AliasFontToken.swift in Sources */,
+				231B509527DCC87700B010C3 /* ReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -817,34 +963,47 @@
 			files = (
 				231B504727DCBBAF00B010C3 /* ForecastListingView.swift in Sources */,
 				231B4FE927DC8FCA00B010C3 /* GenericResponse.swift in Sources */,
+				231B507F27DCC69000B010C3 /* CollectionDataProvider.swift in Sources */,
 				231B506527DCBF2900B010C3 /* ActivityIndicator.swift in Sources */,
 				231B4FD927DC8B2400B010C3 /* ListingAPIRouter.swift in Sources */,
+				231B507627DCC69000B010C3 /* CollectionDataSource.swift in Sources */,
 				231B503927DCB74F00B010C3 /* LandingPageStyler.swift in Sources */,
 				231B4FEB27DC8FD800B010C3 /* ForecastData.swift in Sources */,
 				231B506927DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */,
+				231B507927DCC69000B010C3 /* ArrayDataProvider.swift in Sources */,
+				231B508227DCC69000B010C3 /* ConfigurableCell.swift in Sources */,
 				231B501F27DCB64200B010C3 /* Opacity.swift in Sources */,
+				231B50A327DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */,
 				231B4FD827DC8B2400B010C3 /* NetworkLogger.swift in Sources */,
 				231B4FAC27DC754C00B010C3 /* ViewController.swift in Sources */,
 				231B4FFA27DC963000B010C3 /* SharedAlert.swift in Sources */,
 				231B502B27DCB64200B010C3 /* Font.swift in Sources */,
 				231B503D27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
+				231B509A27DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
 				231B502527DCB64200B010C3 /* LetterSpacing.swift in Sources */,
+				231B508E27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */,
 				231B503427DCB64200B010C3 /* Color.swift in Sources */,
 				231B505827DCBC7F00B010C3 /* ForecastListingPresenter.swift in Sources */,
 				231B503127DCB64200B010C3 /* LightAliasColorToken.swift in Sources */,
 				231B4FDB27DC8B2400B010C3 /* APIConfiguration.swift in Sources */,
+				231B50A727DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */,
 				231B502827DCB64200B010C3 /* Theme.swift in Sources */,
 				231B504C27DCBC2400B010C3 /* MainCoordinator.swift in Sources */,
 				231B4FDE27DC8B2400B010C3 /* Urls.swift in Sources */,
 				231B4FDC27DC8B2400B010C3 /* Logger.swift in Sources */,
 				231B501927DCB64200B010C3 /* Typography.swift in Sources */,
 				231B4FF627DC95BD00B010C3 /* UIView+Extension.swift in Sources */,
+				231B509227DCC7DB00B010C3 /* ForecastListingItemCollectionViewCell.swift in Sources */,
 				231B505D27DCBD0700B010C3 /* ForecastListingViewModel.swift in Sources */,
+				231B508927DCC6C000B010C3 /* BaseCollectionViewCell.swift in Sources */,
 				231B506127DCBE8F00B010C3 /* WeakRef.swift in Sources */,
 				231B4FAD27DC754C00B010C3 /* AppDelegate.swift in Sources */,
 				231B500B27DC96C600B010C3 /* BaseView.swift in Sources */,
 				231B500527DC969F00B010C3 /* LandingPageView.swift in Sources */,
 				231B501C27DCB64200B010C3 /* FontStyle.swift in Sources */,
+				231B507C27DCC69000B010C3 /* CollectionArrayDataSource.swift in Sources */,
+				231B509F27DCCBE300B010C3 /* ForecastListingStyler.swift in Sources */,
+				231B508527DCC69000B010C3 /* ReusableCell.swift in Sources */,
 				231B505427DCBC7100B010C3 /* ForecastListingUseCase.swift in Sources */,
 				231B4FAE27DC754C00B010C3 /* SceneDelegate.swift in Sources */,
 				231B4FDD27DC8B2400B010C3 /* RequestAdapter.swift in Sources */,
@@ -854,6 +1013,7 @@
 				231B4FD027DC8B1F00B010C3 /* NetworkClient.swift in Sources */,
 				231B504327DCBB9E00B010C3 /* ForecastListingViewController.swift in Sources */,
 				231B502E27DCB64200B010C3 /* AliasFontToken.swift in Sources */,
+				231B509627DCC87700B010C3 /* ReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
