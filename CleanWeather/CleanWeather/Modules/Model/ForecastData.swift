@@ -7,9 +7,6 @@
 
 import Foundation
 
-
-import Foundation
-
 // MARK: - ForecastData
 struct ForecastData: Codable {
     let location: Location
@@ -27,11 +24,11 @@ struct Current: Codable {
     let condition: Condition
     let windMph, windKph: Double
     let windDegree: Int
-    let windDir: String
+//    let windDir: WindDir
     let pressureMB: Int
     let pressureIn: Double
     let precipMm, precipIn, humidity, cloud: Int
-    let feelslikeC: Int
+    let feelslikeC: Double
     let feelslikeF: Double
     let visKM, visMiles, uv: Int
     let gustMph, gustKph: Double
@@ -47,7 +44,7 @@ struct Current: Codable {
         case windMph = "wind_mph"
         case windKph = "wind_kph"
         case windDegree = "wind_degree"
-        case windDir = "wind_dir"
+//        case windDir = "wind_dir"
         case pressureMB = "pressure_mb"
         case pressureIn = "pressure_in"
         case precipMm = "precip_mm"
@@ -83,7 +80,14 @@ enum Text: String, Codable {
     case sunny = "Sunny"
 }
 
-
+enum WindDir: String, Codable {
+    case nne = "NNE"
+    case nnw = "NNW"
+    case nw = "NW"
+    case w = "W"
+    case wnw = "WNW"
+    case wsw = "WSW"
+}
 
 // MARK: - Forecast
 struct Forecast: Codable {
@@ -158,7 +162,7 @@ struct Hour: Codable {
     let condition: Condition
     let windMph, windKph: Double
     let windDegree: Int
-    let windDir: String
+//    let windDir: WindDir
     let pressureMB: Int
     let pressureIn: Double
     let precipMm, precipIn, humidity, cloud: Int
@@ -179,7 +183,7 @@ struct Hour: Codable {
         case windMph = "wind_mph"
         case windKph = "wind_kph"
         case windDegree = "wind_degree"
-        case windDir = "wind_dir"
+//        case windDir = "wind_dir"
         case pressureMB = "pressure_mb"
         case pressureIn = "pressure_in"
         case precipMm = "precip_mm"
