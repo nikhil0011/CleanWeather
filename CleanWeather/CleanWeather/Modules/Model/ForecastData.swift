@@ -30,7 +30,7 @@ struct Current: Codable {
     let precipMm, precipIn, humidity, cloud: Int
     let feelslikeC: Double
     let feelslikeF: Double
-    let visKM, visMiles, uv: Int
+    let visMiles, uv: Int
     let gustMph, gustKph: Double
     let airQuality: [String: Double]
 
@@ -52,7 +52,6 @@ struct Current: Codable {
         case humidity, cloud
         case feelslikeC = "feelslike_c"
         case feelslikeF = "feelslike_f"
-        case visKM = "vis_km"
         case visMiles = "vis_miles"
         case uv
         case gustMph = "gust_mph"
@@ -169,7 +168,7 @@ struct Hour: Codable {
     let feelslikeC, feelslikeF, windchillC, windchillF: Double
     let heatindexC, heatindexF, dewpointC, dewpointF: Double
     let willItRain, chanceOfRain, willItSnow, chanceOfSnow: Int
-    let visKM, visMiles: Int
+    let visMiles: Int
     let gustMph, gustKph: Double
     let uv: Int
 
@@ -201,7 +200,6 @@ struct Hour: Codable {
         case chanceOfRain = "chance_of_rain"
         case willItSnow = "will_it_snow"
         case chanceOfSnow = "chance_of_snow"
-        case visKM = "vis_km"
         case visMiles = "vis_miles"
         case gustMph = "gust_mph"
         case gustKph = "gust_kph"
