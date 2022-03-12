@@ -10,7 +10,12 @@ struct ForecastListingViewModel {
     var title: String {
         data.location.name
     }
-    let data: ForecastData
+    private let data: ForecastData
+    let headerData: HeaderData
+    init(data: ForecastData) {
+        self.data = data
+        self.headerData = (data.current, data.location)
+    }
     func listOfItemVM() -> [ForecastItemListingViewModel] {
         var itemViewModelList: [ForecastItemListingViewModel] = [ForecastItemListingViewModel]()
         data.forecast.forecastday.forEach {

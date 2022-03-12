@@ -11,9 +11,13 @@ public enum FontStyle {
     case type282
     case type162
     case type140
+    case type120
     func getAttribues() -> [NSAttributedString.Key : Any] {
         let paragraphStyle = NSMutableParagraphStyle()
         switch self {
+        case .type120:
+            paragraphStyle.minimumLineHeight = 20
+            return [.font: Theme.shared.font.regularFont(12), .paragraphStyle: paragraphStyle]
         case .type140:
             paragraphStyle.minimumLineHeight = 20
             return [.font: Theme.shared.font.regularFont(14), .paragraphStyle: paragraphStyle]

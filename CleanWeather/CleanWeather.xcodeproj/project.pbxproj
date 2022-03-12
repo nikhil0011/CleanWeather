@@ -178,6 +178,9 @@
 		231B50A527DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A427DCCE9800B010C3 /* ForecastItemListingViewModel.swift */; };
 		231B50A627DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A427DCCE9800B010C3 /* ForecastItemListingViewModel.swift */; };
 		231B50A727DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A427DCCE9800B010C3 /* ForecastItemListingViewModel.swift */; };
+		231B50A927DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A827DCF6A800B010C3 /* ForecastListingHeaderView.swift */; };
+		231B50AA27DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A827DCF6A800B010C3 /* ForecastListingHeaderView.swift */; };
+		231B50AB27DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A827DCF6A800B010C3 /* ForecastListingHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -264,6 +267,7 @@
 		231B509C27DCCBE300B010C3 /* ForecastListingStyler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListingStyler.swift; sourceTree = "<group>"; };
 		231B50A027DCCC1600B010C3 /* ForecastListingStyler+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForecastListingStyler+Extension.swift"; sourceTree = "<group>"; };
 		231B50A427DCCE9800B010C3 /* ForecastItemListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastItemListingViewModel.swift; sourceTree = "<group>"; };
+		231B50A827DCF6A800B010C3 /* ForecastListingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListingHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -537,6 +541,7 @@
 			children = (
 				231B504427DCBBAF00B010C3 /* ForecastListingView.swift */,
 				231B509727DCCB8000B010C3 /* ForecastListingItemView.swift */,
+				231B50A827DCF6A800B010C3 /* ForecastListingHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -841,6 +846,7 @@
 				231B4FCE27DC8A0800B010C3 /* Urls.swift in Sources */,
 				231B4FF827DC963000B010C3 /* SharedAlert.swift in Sources */,
 				231B502927DCB64200B010C3 /* Font.swift in Sources */,
+				231B50A927DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */,
 				231B503B27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
 				231B509827DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
 				231B502327DCB64200B010C3 /* LetterSpacing.swift in Sources */,
@@ -918,6 +924,7 @@
 				231B4F9D27DC73DC00B010C3 /* ViewController.swift in Sources */,
 				231B4FF927DC963000B010C3 /* SharedAlert.swift in Sources */,
 				231B502A27DCB64200B010C3 /* Font.swift in Sources */,
+				231B50AA27DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */,
 				231B503C27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
 				231B509927DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
 				231B502427DCB64200B010C3 /* LetterSpacing.swift in Sources */,
@@ -978,6 +985,7 @@
 				231B4FAC27DC754C00B010C3 /* ViewController.swift in Sources */,
 				231B4FFA27DC963000B010C3 /* SharedAlert.swift in Sources */,
 				231B502B27DCB64200B010C3 /* Font.swift in Sources */,
+				231B50AB27DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */,
 				231B503D27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
 				231B509A27DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
 				231B502527DCB64200B010C3 /* LetterSpacing.swift in Sources */,

@@ -22,6 +22,7 @@ class ForecastListingViewController: UIViewController {
     }
     private func setupDataSource(viewModel: ForecastListingViewModel) {
         dataSource = ForecastListingDataSource(collectionView: listView.collectionView, array: viewModel.listOfItemVM())
+        dataSource?.headerViewModel = ForecastHeaderViewModel(data: viewModel.headerData)
         dataSource?.collectionItemSelectionHandler = { [weak self] (indexPath) in
             if let tappedItemVM = self?.dataSource?.provider.item(at: indexPath) {
 //                self?.coordinator?.showDetailPage(viewModel: tappedItemVM)

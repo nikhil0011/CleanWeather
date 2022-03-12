@@ -12,7 +12,11 @@ class ForecastListingStyler {
         case listingCellTitle(_ text: String)
         case listingCellSubTitle(_ text: String)
         case tempRange(_ text: String)
-       
+        case headerRegionLabel(_ text: String)
+        case headerLatlongLabel(_ text: String)
+        case headerFeelsLikeLabel(_ text: String)
+        case headerUpdatedAtLabel(_ text: String)
+        case headerTempLabel(_ text: String)
     }
     
     struct TextAttributes {
