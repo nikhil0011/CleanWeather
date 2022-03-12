@@ -17,7 +17,7 @@ struct ForecastData: Codable {
 // MARK: - Current
 struct Current: Codable {
     let lastUpdated: String
-    let tempC: Int
+    let tempC: Double
     let tempF: Double
     let isDay: Int
     let feelslikeC: Double

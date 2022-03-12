@@ -25,7 +25,15 @@ class ForecastHeader: UICollectionReusableView, ReusableCell {
     lazy var tempLabel: UILabel = UILabel.create {
         $0.translatesAutoresizingMaskIntoConstraints = false
     }
-
+    private var mainView: UIStackView = {
+        let stackView = StackViewFactory.getStackView(
+            axis: .vertical,
+            alignment: .fill,
+            distribution: .fill,
+            spacing: 6
+        )
+        return stackView
+    }()
     override public init(frame: CGRect) {
         super.init(frame: frame)
         setupViews()
@@ -37,9 +45,15 @@ class ForecastHeader: UICollectionReusableView, ReusableCell {
         super.layoutSubviews()
     }
     func setupViews() {
-        stack(regionLabel, feelsLikeLabel, tempLabel, latlongLabel, lastUpdatedLabel, spacing: 6, alignment: .top, distribution: .fillEqually).withMargins(.init(top: 12, left: 20, bottom: 8, right: 20))
+        mainView.addArrangedSubview(regionLabel)
+        mainView.addArrangedSubview(feelsLikeLabel)
+        mainView.addArrangedSubview(tempLabel)
+        mainView.addArrangedSubview(latlongLabel)
+        mainView.addArrangedSubview(lastUpdatedLabel)
+        addsub(views: mainView)
+        mainView.anchor(top: topAnchor, left: leftAnchor, bottom: bottomAnchor, right: rightAnchor, paddingTop: 12, paddingLeft: 20, paddingBottom: 8, paddingRight: 20)
     }
-    func configure(viewModel: ForecastHeaderViewModel?) {
+    func configure(_ viewModel: ForecastHeaderViewModel?) {
         if let model = viewModel {
             styler.apply(textStyle: .headerRegionLabel(model.regionLabel), to: regionLabel)
             styler.apply(textStyle: .headerTempLabel(model.tempLabel), to: tempLabel)

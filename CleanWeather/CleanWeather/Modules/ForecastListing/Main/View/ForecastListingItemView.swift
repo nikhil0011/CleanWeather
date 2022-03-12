@@ -29,8 +29,8 @@ class ForecastListingItemView: BaseView {
         tempRange.anchor(top: subTitleLabel.bottomAnchor, left: leftAnchor, right: rightAnchor, paddingTop: 8, paddingLeft: 4, paddingRight: 4)
     }
     func setupInfo(viewModel: ForecastItemListingViewModel) {
-        styler.apply(textStyle: .listingCellTitle(viewModel.title), to: titleLabel)
-        styler.apply(textStyle: .listingCellSubTitle(viewModel.subtitle), to: subTitleLabel)
+        styler.apply(textStyle: .listingCellTitle(viewModel.date), to: titleLabel)
+        styler.apply(textStyle: .listingCellSubTitle(viewModel.uvValue), to: subTitleLabel)
         styler.apply(textStyle: .listingCellSubTitle(viewModel.tempRange), to: tempRange)
     }
 }

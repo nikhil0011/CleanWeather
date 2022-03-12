@@ -1,5 +1,5 @@
 //
-//  LandingPageStyler.swift
+//  ForecastDetailStyler.swift
 //  CleanWeather
 //
 //  Created by Nikhil Nangia on 12/03/22.
@@ -8,12 +8,16 @@
 
 import UIKit
 
-class LandingPageStyler {
+class ForecastDetailStyler {
     enum TextStyle {
-        case pageTitle(_ text: String)
-        case pageSubTitle(_ text: String)
-        case submitButton(_ text: String)
-        case inputField(_ text: String)
+        case regionLabel(_ text: String)
+        case currentTempLabel(_ text: String)
+        case weatherSentimentLabel(_ text: String)
+        case hourTempLabel(_ text: String)
+        case hourTimeLabel(_ text: String)
+//        case headerFeelsLikeLabel(_ text: String)
+//        case headerUpdatedAtLabel(_ text: String)
+//        case headerTempLabel(_ text: String)
     }
     
     struct TextAttributes {
@@ -60,22 +64,11 @@ class LandingPageStyler {
         let attributes = attributesForStyle(textStyle)
         let attributedText = NSMutableAttributedString(attributedString: attributes.text.typographicText(color: attributes.color, font: attributes.font, opacity: attributes.opacity))
         label.attributedText = attributedText
-        label.textAlignment = .center
-    }
-    func  apply(textStyle: TextStyle, to button: UIButton) {
-        let attributes = attributesForStyle(textStyle)
-        let attributedText = NSMutableAttributedString(attributedString: attributes.text.typographicText(color: attributes.color, font: attributes.font, opacity: attributes.opacity))
-        button.setAttributedTitle(attributedText, for: .normal)
-    }
-    func apply(textStyle: TextStyle, to textField: UITextField) {
-        let attributes = attributesForStyle(textStyle)
-        let attributedText = NSMutableAttributedString(attributedString: attributes.text.typographicText(color: attributes.color, font: attributes.font, opacity: attributes.opacity))
-        let attributesForTyping = attributedText.attributes(at: 0, effectiveRange: nil)
-        textField.typingAttributes = attributesForTyping
-    }
-}
-extension UIImage {
-    struct App {
-        static let settings = "icons8-settings-28"
+        switch textStyle {
+        case .hourTimeLabel, .hourTempLabel:
+            label.textAlignment = .center
+        default:
+            break
+        }
     }
 }

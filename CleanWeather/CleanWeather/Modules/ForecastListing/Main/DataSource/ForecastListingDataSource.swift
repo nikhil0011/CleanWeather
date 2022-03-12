@@ -14,7 +14,7 @@ class ForecastListingDataSource: CollectionArrayDataSource<ForecastItemListingVi
             guard let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: ForecastHeader.reuseIdentifier, for: indexPath) as? ForecastHeader else {
                 return collectionView.defaultReusableview(indexPath)
             }
-            headerView.configure(viewModel: headerViewModel)
+            headerView.configure(headerViewModel)
             return headerView
         default:
             fatalError("Could not find supplementary view of \(kind)!")

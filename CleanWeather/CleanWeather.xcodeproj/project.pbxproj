@@ -181,6 +181,45 @@
 		231B50A927DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A827DCF6A800B010C3 /* ForecastListingHeaderView.swift */; };
 		231B50AA27DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A827DCF6A800B010C3 /* ForecastListingHeaderView.swift */; };
 		231B50AB27DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50A827DCF6A800B010C3 /* ForecastListingHeaderView.swift */; };
+		231B50B427DD01E500B010C3 /* ForecastDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50B327DD01E500B010C3 /* ForecastDetailPresenter.swift */; };
+		231B50B527DD01E500B010C3 /* ForecastDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50B327DD01E500B010C3 /* ForecastDetailPresenter.swift */; };
+		231B50B627DD01E500B010C3 /* ForecastDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50B327DD01E500B010C3 /* ForecastDetailPresenter.swift */; };
+		231B50B827DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50B727DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift */; };
+		231B50B927DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50B727DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift */; };
+		231B50BA27DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50B727DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift */; };
+		231B50BC27DD01FB00B010C3 /* ForecastDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50BB27DD01FB00B010C3 /* ForecastDetailViewModel.swift */; };
+		231B50BD27DD01FB00B010C3 /* ForecastDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50BB27DD01FB00B010C3 /* ForecastDetailViewModel.swift */; };
+		231B50BE27DD01FB00B010C3 /* ForecastDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50BB27DD01FB00B010C3 /* ForecastDetailViewModel.swift */; };
+		231B50C027DD020D00B010C3 /* ForecastDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50BF27DD020D00B010C3 /* ForecastDetailView.swift */; };
+		231B50C127DD020D00B010C3 /* ForecastDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50BF27DD020D00B010C3 /* ForecastDetailView.swift */; };
+		231B50C227DD020D00B010C3 /* ForecastDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50BF27DD020D00B010C3 /* ForecastDetailView.swift */; };
+		231B50C427DD022A00B010C3 /* ForecastDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50C327DD022A00B010C3 /* ForecastDetailViewController.swift */; };
+		231B50C527DD022A00B010C3 /* ForecastDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50C327DD022A00B010C3 /* ForecastDetailViewController.swift */; };
+		231B50C627DD022A00B010C3 /* ForecastDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50C327DD022A00B010C3 /* ForecastDetailViewController.swift */; };
+		231B50C827DD028600B010C3 /* ForecastDetailStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50C727DD028600B010C3 /* ForecastDetailStyler.swift */; };
+		231B50C927DD028600B010C3 /* ForecastDetailStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50C727DD028600B010C3 /* ForecastDetailStyler.swift */; };
+		231B50CA27DD028600B010C3 /* ForecastDetailStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50C727DD028600B010C3 /* ForecastDetailStyler.swift */; };
+		231B50CD27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50CC27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift */; };
+		231B50CE27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50CC27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift */; };
+		231B50CF27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50CC27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift */; };
+		231B50D127DD241200B010C3 /* ForecastDetailItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50D027DD241200B010C3 /* ForecastDetailItemViewModel.swift */; };
+		231B50D227DD241200B010C3 /* ForecastDetailItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50D027DD241200B010C3 /* ForecastDetailItemViewModel.swift */; };
+		231B50D327DD241200B010C3 /* ForecastDetailItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50D027DD241200B010C3 /* ForecastDetailItemViewModel.swift */; };
+		231B50D527DD257000B010C3 /* ForecastHourDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50D427DD257000B010C3 /* ForecastHourDetailDataSource.swift */; };
+		231B50D627DD257000B010C3 /* ForecastHourDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50D427DD257000B010C3 /* ForecastHourDetailDataSource.swift */; };
+		231B50D727DD257000B010C3 /* ForecastHourDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50D427DD257000B010C3 /* ForecastHourDetailDataSource.swift */; };
+		231B50DB27DD2F8D00B010C3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50DA27DD2F8D00B010C3 /* SettingsViewController.swift */; };
+		231B50DC27DD2F8D00B010C3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50DA27DD2F8D00B010C3 /* SettingsViewController.swift */; };
+		231B50DD27DD2F8D00B010C3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50DA27DD2F8D00B010C3 /* SettingsViewController.swift */; };
+		231B50E027DD306E00B010C3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50DF27DD306E00B010C3 /* SettingView.swift */; };
+		231B50E127DD306E00B010C3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50DF27DD306E00B010C3 /* SettingView.swift */; };
+		231B50E227DD306E00B010C3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50DF27DD306E00B010C3 /* SettingView.swift */; };
+		231B50E427DD31E000B010C3 /* NSConstantMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50E327DD31E000B010C3 /* NSConstantMethods.swift */; };
+		231B50E527DD31E000B010C3 /* NSConstantMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50E327DD31E000B010C3 /* NSConstantMethods.swift */; };
+		231B50E627DD31E000B010C3 /* NSConstantMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50E327DD31E000B010C3 /* NSConstantMethods.swift */; };
+		231B50E827DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50E727DD372300B010C3 /* ForecastHeaderViewModel.swift */; };
+		231B50E927DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50E727DD372300B010C3 /* ForecastHeaderViewModel.swift */; };
+		231B50EA27DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50E727DD372300B010C3 /* ForecastHeaderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -268,6 +307,19 @@
 		231B50A027DCCC1600B010C3 /* ForecastListingStyler+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForecastListingStyler+Extension.swift"; sourceTree = "<group>"; };
 		231B50A427DCCE9800B010C3 /* ForecastItemListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastItemListingViewModel.swift; sourceTree = "<group>"; };
 		231B50A827DCF6A800B010C3 /* ForecastListingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListingHeaderView.swift; sourceTree = "<group>"; };
+		231B50B327DD01E500B010C3 /* ForecastDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDetailPresenter.swift; sourceTree = "<group>"; };
+		231B50B727DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForecastDetailStyler+Extension.swift"; sourceTree = "<group>"; };
+		231B50BB27DD01FB00B010C3 /* ForecastDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDetailViewModel.swift; sourceTree = "<group>"; };
+		231B50BF27DD020D00B010C3 /* ForecastDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDetailView.swift; sourceTree = "<group>"; };
+		231B50C327DD022A00B010C3 /* ForecastDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDetailViewController.swift; sourceTree = "<group>"; };
+		231B50C727DD028600B010C3 /* ForecastDetailStyler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDetailStyler.swift; sourceTree = "<group>"; };
+		231B50CC27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastHourCollectionViewCell.swift; sourceTree = "<group>"; };
+		231B50D027DD241200B010C3 /* ForecastDetailItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDetailItemViewModel.swift; sourceTree = "<group>"; };
+		231B50D427DD257000B010C3 /* ForecastHourDetailDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastHourDetailDataSource.swift; sourceTree = "<group>"; };
+		231B50DA27DD2F8D00B010C3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		231B50DF27DD306E00B010C3 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		231B50E327DD31E000B010C3 /* NSConstantMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSConstantMethods.swift; sourceTree = "<group>"; };
+		231B50E727DD372300B010C3 /* ForecastHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastHeaderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -395,12 +447,13 @@
 		231B4FDF27DC8B4700B010C3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				231B50D827DD2F7600B010C3 /* Settings */,
+				231B506627DCC02B00B010C3 /* BaseNavigationViewController.swift */,
 				231B504827DCBBFC00B010C3 /* Coordinator */,
 				231B4FE327DC8BAD00B010C3 /* Model */,
 				231B4FE227DC8B6900B010C3 /* ForecastDetail */,
 				231B4FE127DC8B5E00B010C3 /* ForecastListing */,
 				231B4FE027DC8B4E00B010C3 /* LandingPage */,
-				231B506627DCC02B00B010C3 /* BaseNavigationViewController.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -418,13 +471,10 @@
 		231B4FE127DC8B5E00B010C3 /* ForecastListing */ = {
 			isa = PBXGroup;
 			children = (
-				231B509B27DCCBDB00B010C3 /* Styler */,
-				231B508A27DCC6D400B010C3 /* DataSource */,
-				231B505927DCBCFC00B010C3 /* ViewModel */,
 				231B505027DCBC6100B010C3 /* Presenter */,
 				231B504D27DCBC5300B010C3 /* Usecase */,
-				231B503F27DCBB9000B010C3 /* View */,
-				231B503E27DCBB8800B010C3 /* Controller */,
+				231B50AE27DD01A300B010C3 /* Main */,
+				231B509B27DCCBDB00B010C3 /* Styler */,
 			);
 			path = ForecastListing;
 			sourceTree = "<group>";
@@ -432,6 +482,9 @@
 		231B4FE227DC8B6900B010C3 /* ForecastDetail */ = {
 			isa = PBXGroup;
 			children = (
+				231B50AF27DD01C000B010C3 /* Styler */,
+				231B50AD27DD019700B010C3 /* Main */,
+				231B50AC27DD018F00B010C3 /* Presenter */,
 			);
 			path = ForecastDetail;
 			sourceTree = "<group>";
@@ -472,6 +525,7 @@
 				231B505E27DCBE8F00B010C3 /* WeakRef.swift */,
 				231B506227DCBF2900B010C3 /* ActivityIndicator.swift */,
 				231B509327DCC87700B010C3 /* ReusableView.swift */,
+				231B50E327DD31E000B010C3 /* NSConstantMethods.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -575,6 +629,7 @@
 			children = (
 				231B505A27DCBD0700B010C3 /* ForecastListingViewModel.swift */,
 				231B50A427DCCE9800B010C3 /* ForecastItemListingViewModel.swift */,
+				231B50E727DD372300B010C3 /* ForecastHeaderViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -631,6 +686,104 @@
 				231B50A027DCCC1600B010C3 /* ForecastListingStyler+Extension.swift */,
 			);
 			path = Styler;
+			sourceTree = "<group>";
+		};
+		231B50AC27DD018F00B010C3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				231B50B327DD01E500B010C3 /* ForecastDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		231B50AD27DD019700B010C3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				231B50CB27DD23A400B010C3 /* DataSource */,
+				231B50B227DD01D500B010C3 /* ViewModel */,
+				231B50B127DD01D000B010C3 /* View */,
+				231B50B027DD01CA00B010C3 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		231B50AE27DD01A300B010C3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				231B508A27DCC6D400B010C3 /* DataSource */,
+				231B505927DCBCFC00B010C3 /* ViewModel */,
+				231B503F27DCBB9000B010C3 /* View */,
+				231B503E27DCBB8800B010C3 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		231B50AF27DD01C000B010C3 /* Styler */ = {
+			isa = PBXGroup;
+			children = (
+				231B50B727DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift */,
+				231B50C727DD028600B010C3 /* ForecastDetailStyler.swift */,
+			);
+			path = Styler;
+			sourceTree = "<group>";
+		};
+		231B50B027DD01CA00B010C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				231B50C327DD022A00B010C3 /* ForecastDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		231B50B127DD01D000B010C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				231B50BF27DD020D00B010C3 /* ForecastDetailView.swift */,
+				231B50CC27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		231B50B227DD01D500B010C3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				231B50BB27DD01FB00B010C3 /* ForecastDetailViewModel.swift */,
+				231B50D027DD241200B010C3 /* ForecastDetailItemViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		231B50CB27DD23A400B010C3 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				231B50D427DD257000B010C3 /* ForecastHourDetailDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		231B50D827DD2F7600B010C3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				231B50DE27DD306300B010C3 /* View */,
+				231B50D927DD2F7B00B010C3 /* Controller */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		231B50D927DD2F7B00B010C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				231B50DA27DD2F8D00B010C3 /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		231B50DE27DD306300B010C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				231B50DF27DD306E00B010C3 /* SettingView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -830,30 +983,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				231B504527DCBBAF00B010C3 /* ForecastListingView.swift in Sources */,
+				231B50D127DD241200B010C3 /* ForecastDetailItemViewModel.swift in Sources */,
 				231B4FCD27DC8A0800B010C3 /* NetworkLogger.swift in Sources */,
 				231B507D27DCC69000B010C3 /* CollectionDataProvider.swift in Sources */,
 				231B506327DCBF2900B010C3 /* ActivityIndicator.swift in Sources */,
 				231B4FC927DC8A0800B010C3 /* ListingAPIRouter.swift in Sources */,
 				231B507427DCC69000B010C3 /* CollectionDataSource.swift in Sources */,
+				231B50DB27DD2F8D00B010C3 /* SettingsViewController.swift in Sources */,
 				231B503727DCB74F00B010C3 /* LandingPageStyler.swift in Sources */,
 				231B4F7027DC712900B010C3 /* ViewController.swift in Sources */,
 				231B506727DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */,
+				231B50E827DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */,
 				231B507727DCC69000B010C3 /* ArrayDataProvider.swift in Sources */,
 				231B508027DCC69000B010C3 /* ConfigurableCell.swift in Sources */,
 				231B501D27DCB64200B010C3 /* Opacity.swift in Sources */,
+				231B50B827DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift in Sources */,
+				231B50D527DD257000B010C3 /* ForecastHourDetailDataSource.swift in Sources */,
 				231B50A127DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */,
 				231B4FCB27DC8A0800B010C3 /* Network.swift in Sources */,
 				231B4FCE27DC8A0800B010C3 /* Urls.swift in Sources */,
 				231B4FF827DC963000B010C3 /* SharedAlert.swift in Sources */,
+				231B50C427DD022A00B010C3 /* ForecastDetailViewController.swift in Sources */,
+				231B50E027DD306E00B010C3 /* SettingView.swift in Sources */,
 				231B502927DCB64200B010C3 /* Font.swift in Sources */,
+				231B50BC27DD01FB00B010C3 /* ForecastDetailViewModel.swift in Sources */,
 				231B50A927DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */,
 				231B503B27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
 				231B509827DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
+				231B50CD27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift in Sources */,
 				231B502327DCB64200B010C3 /* LetterSpacing.swift in Sources */,
 				231B508C27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */,
+				231B50B427DD01E500B010C3 /* ForecastDetailPresenter.swift in Sources */,
 				231B503227DCB64200B010C3 /* Color.swift in Sources */,
 				231B505627DCBC7F00B010C3 /* ForecastListingPresenter.swift in Sources */,
 				231B502F27DCB64200B010C3 /* LightAliasColorToken.swift in Sources */,
+				231B50C027DD020D00B010C3 /* ForecastDetailView.swift in Sources */,
 				231B4FCC27DC8A0800B010C3 /* RequestAdapter.swift in Sources */,
 				231B50A527DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */,
 				231B502627DCB64200B010C3 /* Theme.swift in Sources */,
@@ -870,9 +1034,11 @@
 				231B500927DC96C600B010C3 /* BaseView.swift in Sources */,
 				231B500327DC969F00B010C3 /* LandingPageView.swift in Sources */,
 				231B501A27DCB64200B010C3 /* FontStyle.swift in Sources */,
+				231B50C827DD028600B010C3 /* ForecastDetailStyler.swift in Sources */,
 				231B507A27DCC69000B010C3 /* CollectionArrayDataSource.swift in Sources */,
 				231B509D27DCCBE300B010C3 /* ForecastListingStyler.swift in Sources */,
 				231B508327DCC69000B010C3 /* ReusableCell.swift in Sources */,
+				231B50E427DD31E000B010C3 /* NSConstantMethods.swift in Sources */,
 				231B505227DCBC7100B010C3 /* ForecastListingUseCase.swift in Sources */,
 				231B4F6E27DC712900B010C3 /* SceneDelegate.swift in Sources */,
 				231B4FE527DC8BEB00B010C3 /* ForecastData.swift in Sources */,
@@ -908,30 +1074,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				231B504627DCBBAF00B010C3 /* ForecastListingView.swift in Sources */,
+				231B50D227DD241200B010C3 /* ForecastDetailItemViewModel.swift in Sources */,
 				231B4FE827DC8FC900B010C3 /* GenericResponse.swift in Sources */,
 				231B507E27DCC69000B010C3 /* CollectionDataProvider.swift in Sources */,
 				231B506427DCBF2900B010C3 /* ActivityIndicator.swift in Sources */,
 				231B4FD227DC8B2400B010C3 /* ListingAPIRouter.swift in Sources */,
 				231B507527DCC69000B010C3 /* CollectionDataSource.swift in Sources */,
+				231B50DC27DD2F8D00B010C3 /* SettingsViewController.swift in Sources */,
 				231B503827DCB74F00B010C3 /* LandingPageStyler.swift in Sources */,
 				231B4FEA27DC8FD700B010C3 /* ForecastData.swift in Sources */,
 				231B506827DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */,
+				231B50E927DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */,
 				231B507827DCC69000B010C3 /* ArrayDataProvider.swift in Sources */,
 				231B508127DCC69000B010C3 /* ConfigurableCell.swift in Sources */,
 				231B501E27DCB64200B010C3 /* Opacity.swift in Sources */,
+				231B50B927DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift in Sources */,
+				231B50D627DD257000B010C3 /* ForecastHourDetailDataSource.swift in Sources */,
 				231B50A227DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */,
 				231B4FD127DC8B2400B010C3 /* NetworkLogger.swift in Sources */,
 				231B4F9D27DC73DC00B010C3 /* ViewController.swift in Sources */,
 				231B4FF927DC963000B010C3 /* SharedAlert.swift in Sources */,
+				231B50C527DD022A00B010C3 /* ForecastDetailViewController.swift in Sources */,
+				231B50E127DD306E00B010C3 /* SettingView.swift in Sources */,
 				231B502A27DCB64200B010C3 /* Font.swift in Sources */,
+				231B50BD27DD01FB00B010C3 /* ForecastDetailViewModel.swift in Sources */,
 				231B50AA27DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */,
 				231B503C27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
 				231B509927DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
+				231B50CE27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift in Sources */,
 				231B502427DCB64200B010C3 /* LetterSpacing.swift in Sources */,
 				231B508D27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */,
+				231B50B527DD01E500B010C3 /* ForecastDetailPresenter.swift in Sources */,
 				231B503327DCB64200B010C3 /* Color.swift in Sources */,
 				231B505727DCBC7F00B010C3 /* ForecastListingPresenter.swift in Sources */,
 				231B503027DCB64200B010C3 /* LightAliasColorToken.swift in Sources */,
+				231B50C127DD020D00B010C3 /* ForecastDetailView.swift in Sources */,
 				231B4FD427DC8B2400B010C3 /* APIConfiguration.swift in Sources */,
 				231B50A627DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */,
 				231B502727DCB64200B010C3 /* Theme.swift in Sources */,
@@ -948,9 +1125,11 @@
 				231B500A27DC96C600B010C3 /* BaseView.swift in Sources */,
 				231B500427DC969F00B010C3 /* LandingPageView.swift in Sources */,
 				231B501B27DCB64200B010C3 /* FontStyle.swift in Sources */,
+				231B50C927DD028600B010C3 /* ForecastDetailStyler.swift in Sources */,
 				231B507B27DCC69000B010C3 /* CollectionArrayDataSource.swift in Sources */,
 				231B509E27DCCBE300B010C3 /* ForecastListingStyler.swift in Sources */,
 				231B508427DCC69000B010C3 /* ReusableCell.swift in Sources */,
+				231B50E527DD31E000B010C3 /* NSConstantMethods.swift in Sources */,
 				231B505327DCBC7100B010C3 /* ForecastListingUseCase.swift in Sources */,
 				231B4F9F27DC73DC00B010C3 /* SceneDelegate.swift in Sources */,
 				231B4FD627DC8B2400B010C3 /* RequestAdapter.swift in Sources */,
@@ -969,30 +1148,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				231B504727DCBBAF00B010C3 /* ForecastListingView.swift in Sources */,
+				231B50D327DD241200B010C3 /* ForecastDetailItemViewModel.swift in Sources */,
 				231B4FE927DC8FCA00B010C3 /* GenericResponse.swift in Sources */,
 				231B507F27DCC69000B010C3 /* CollectionDataProvider.swift in Sources */,
 				231B506527DCBF2900B010C3 /* ActivityIndicator.swift in Sources */,
 				231B4FD927DC8B2400B010C3 /* ListingAPIRouter.swift in Sources */,
 				231B507627DCC69000B010C3 /* CollectionDataSource.swift in Sources */,
+				231B50DD27DD2F8D00B010C3 /* SettingsViewController.swift in Sources */,
 				231B503927DCB74F00B010C3 /* LandingPageStyler.swift in Sources */,
 				231B4FEB27DC8FD800B010C3 /* ForecastData.swift in Sources */,
 				231B506927DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */,
+				231B50EA27DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */,
 				231B507927DCC69000B010C3 /* ArrayDataProvider.swift in Sources */,
 				231B508227DCC69000B010C3 /* ConfigurableCell.swift in Sources */,
 				231B501F27DCB64200B010C3 /* Opacity.swift in Sources */,
+				231B50BA27DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift in Sources */,
+				231B50D727DD257000B010C3 /* ForecastHourDetailDataSource.swift in Sources */,
 				231B50A327DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */,
 				231B4FD827DC8B2400B010C3 /* NetworkLogger.swift in Sources */,
 				231B4FAC27DC754C00B010C3 /* ViewController.swift in Sources */,
 				231B4FFA27DC963000B010C3 /* SharedAlert.swift in Sources */,
+				231B50C627DD022A00B010C3 /* ForecastDetailViewController.swift in Sources */,
+				231B50E227DD306E00B010C3 /* SettingView.swift in Sources */,
 				231B502B27DCB64200B010C3 /* Font.swift in Sources */,
+				231B50BE27DD01FB00B010C3 /* ForecastDetailViewModel.swift in Sources */,
 				231B50AB27DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */,
 				231B503D27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
 				231B509A27DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
+				231B50CF27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift in Sources */,
 				231B502527DCB64200B010C3 /* LetterSpacing.swift in Sources */,
 				231B508E27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */,
+				231B50B627DD01E500B010C3 /* ForecastDetailPresenter.swift in Sources */,
 				231B503427DCB64200B010C3 /* Color.swift in Sources */,
 				231B505827DCBC7F00B010C3 /* ForecastListingPresenter.swift in Sources */,
 				231B503127DCB64200B010C3 /* LightAliasColorToken.swift in Sources */,
+				231B50C227DD020D00B010C3 /* ForecastDetailView.swift in Sources */,
 				231B4FDB27DC8B2400B010C3 /* APIConfiguration.swift in Sources */,
 				231B50A727DCCE9800B010C3 /* ForecastItemListingViewModel.swift in Sources */,
 				231B502827DCB64200B010C3 /* Theme.swift in Sources */,
@@ -1009,9 +1199,11 @@
 				231B500B27DC96C600B010C3 /* BaseView.swift in Sources */,
 				231B500527DC969F00B010C3 /* LandingPageView.swift in Sources */,
 				231B501C27DCB64200B010C3 /* FontStyle.swift in Sources */,
+				231B50CA27DD028600B010C3 /* ForecastDetailStyler.swift in Sources */,
 				231B507C27DCC69000B010C3 /* CollectionArrayDataSource.swift in Sources */,
 				231B509F27DCCBE300B010C3 /* ForecastListingStyler.swift in Sources */,
 				231B508527DCC69000B010C3 /* ReusableCell.swift in Sources */,
+				231B50E627DD31E000B010C3 /* NSConstantMethods.swift in Sources */,
 				231B505427DCBC7100B010C3 /* ForecastListingUseCase.swift in Sources */,
 				231B4FAE27DC754C00B010C3 /* SceneDelegate.swift in Sources */,
 				231B4FDD27DC8B2400B010C3 /* RequestAdapter.swift in Sources */,

@@ -184,3 +184,19 @@ extension UIView {
     }
 }
 
+struct StackViewFactory {
+    static func getStackView(
+        axis: NSLayoutConstraint.Axis,
+        alignment: UIStackView.Alignment = .fill,
+        distribution: UIStackView.Distribution = .fill,
+        spacing: CGFloat = 4
+    ) -> UIStackView {
+        let stackView = UIStackView()
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+        stackView.axis = axis
+        stackView.alignment = alignment
+        stackView.distribution = distribution
+        stackView.spacing = spacing
+        return stackView
+    }
+}

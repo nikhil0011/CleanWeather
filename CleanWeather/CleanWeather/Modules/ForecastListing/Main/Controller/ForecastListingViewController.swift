@@ -20,12 +20,14 @@ class ForecastListingViewController: UIViewController {
         self.view.stack(listView)
         ActivityIndicator.shared.showProgressView(self.view)
     }
+   
     private func setupDataSource(viewModel: ForecastListingViewModel) {
         dataSource = ForecastListingDataSource(collectionView: listView.collectionView, array: viewModel.listOfItemVM())
-        dataSource?.headerViewModel = ForecastHeaderViewModel(data: viewModel.headerData)
+        let headerVM = ForecastHeaderViewModel(data: viewModel.headerData)
+        dataSource?.headerViewModel = headerVM
         dataSource?.collectionItemSelectionHandler = { [weak self] (indexPath) in
-            if let tappedItemVM = self?.dataSource?.provider.item(at: indexPath) {
-//                self?.coordinator?.showDetailPage(viewModel: tappedItemVM)
+            if let model = self?.dataSource?.provider.item(at: indexPath) {
+                self?.coordinator?.showForecastDetailFor(day: model.day, headerVM)
             }
         }
         self.listView.collectionView.reloadData()

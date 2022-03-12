@@ -24,9 +24,6 @@ class MainCoordinator: Coordinator {
     func start() {
         let vc = ViewController()
         vc.coordinator = self
-//        let presenter = RecipeListingPresenter(output: WeakRef(vc))
-//        let usecase = RecipeListingUseCase(output: presenter)
-//        usecase.fetch()
         navigationController.pushViewController(vc, animated: true)
     }
     func navigateToForecase(location: String) {
@@ -36,5 +33,18 @@ class MainCoordinator: Coordinator {
         let usecase = ForecastListingUseCase(output: presenter)
         usecase.fetch(location: location)
         navigationController.pushViewController(vc, animated: true)
+    }
+    func showForecastDetailFor(day: Forecastday, _ headerViewModel: ForecastHeaderViewModel) {
+        let vc = ForecastDetailViewController()
+        vc.coordinator = self
+        let presenter = ForecastDetailPresenter(output: WeakRef(vc))
+        presenter.showForecastFor(day, headerViewModel)
+        navigationController.pushViewController(vc, animated: true)
+    }
+    func showSettings() {
+        let vc = SettingsViewController()
+        let navigationVC = BaseNavigationViewController(rootViewController: vc)
+        vc.coordinator = self
+        navigationController.present(navigationVC, animated: true)
     }
 }

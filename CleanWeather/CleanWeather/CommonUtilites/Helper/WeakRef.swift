@@ -23,3 +23,9 @@ extension WeakRef: ForecastListingPresenterOutput where T: ForecastListingPresen
         object?.showForecast(viewModel: viewModel)
     }
 }
+extension WeakRef: ForecastDetailPresenterOutput where T: ForecastDetailPresenterOutput {
+    func showDayForecast(viewModel: ForecastDetailViewModel) {
+        object?.showDayForecast(viewModel: viewModel)
+    }
+}
+

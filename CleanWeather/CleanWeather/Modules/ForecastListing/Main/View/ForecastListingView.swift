@@ -8,6 +8,7 @@
 import UIKit
 
 class ForecastListingView: BaseView {
+   
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         let view = UICollectionView(frame: self.frame, collectionViewLayout: layout)
@@ -21,5 +22,6 @@ class ForecastListingView: BaseView {
     }()
     override func setupViews() {
         stack(collectionView)
+
     }
 }
