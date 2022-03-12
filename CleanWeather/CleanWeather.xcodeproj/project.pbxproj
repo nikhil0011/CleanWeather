@@ -28,6 +28,39 @@
 		231B4FB127DC754C00B010C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231B4F7627DC712B00B010C3 /* LaunchScreen.storyboard */; };
 		231B4FB227DC754C00B010C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231B4F7427DC712B00B010C3 /* Assets.xcassets */; };
 		231B4FB327DC754C00B010C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231B4F7127DC712900B010C3 /* Main.storyboard */; };
+		231B4FBB27DC89B600B010C3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 231B4FBA27DC89B600B010C3 /* Alamofire */; };
+		231B4FC727DC8A0800B010C3 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FBF27DC8A0800B010C3 /* NetworkClient.swift */; };
+		231B4FC827DC8A0800B010C3 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC027DC8A0800B010C3 /* APIConfiguration.swift */; };
+		231B4FC927DC8A0800B010C3 /* ListingAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC127DC8A0800B010C3 /* ListingAPIRouter.swift */; };
+		231B4FCA27DC8A0800B010C3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC227DC8A0800B010C3 /* Logger.swift */; };
+		231B4FCB27DC8A0800B010C3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC327DC8A0800B010C3 /* Network.swift */; };
+		231B4FCC27DC8A0800B010C3 /* RequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC427DC8A0800B010C3 /* RequestAdapter.swift */; };
+		231B4FCD27DC8A0800B010C3 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC527DC8A0800B010C3 /* NetworkLogger.swift */; };
+		231B4FCE27DC8A0800B010C3 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC627DC8A0800B010C3 /* Urls.swift */; };
+		231B4FCF27DC8B1E00B010C3 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FBF27DC8A0800B010C3 /* NetworkClient.swift */; };
+		231B4FD027DC8B1F00B010C3 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FBF27DC8A0800B010C3 /* NetworkClient.swift */; };
+		231B4FD127DC8B2400B010C3 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC527DC8A0800B010C3 /* NetworkLogger.swift */; };
+		231B4FD227DC8B2400B010C3 /* ListingAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC127DC8A0800B010C3 /* ListingAPIRouter.swift */; };
+		231B4FD327DC8B2400B010C3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC327DC8A0800B010C3 /* Network.swift */; };
+		231B4FD427DC8B2400B010C3 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC027DC8A0800B010C3 /* APIConfiguration.swift */; };
+		231B4FD527DC8B2400B010C3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC227DC8A0800B010C3 /* Logger.swift */; };
+		231B4FD627DC8B2400B010C3 /* RequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC427DC8A0800B010C3 /* RequestAdapter.swift */; };
+		231B4FD727DC8B2400B010C3 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC627DC8A0800B010C3 /* Urls.swift */; };
+		231B4FD827DC8B2400B010C3 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC527DC8A0800B010C3 /* NetworkLogger.swift */; };
+		231B4FD927DC8B2400B010C3 /* ListingAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC127DC8A0800B010C3 /* ListingAPIRouter.swift */; };
+		231B4FDA27DC8B2400B010C3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC327DC8A0800B010C3 /* Network.swift */; };
+		231B4FDB27DC8B2400B010C3 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC027DC8A0800B010C3 /* APIConfiguration.swift */; };
+		231B4FDC27DC8B2400B010C3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC227DC8A0800B010C3 /* Logger.swift */; };
+		231B4FDD27DC8B2400B010C3 /* RequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC427DC8A0800B010C3 /* RequestAdapter.swift */; };
+		231B4FDE27DC8B2400B010C3 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC627DC8A0800B010C3 /* Urls.swift */; };
+		231B4FE527DC8BEB00B010C3 /* ForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FE427DC8BEB00B010C3 /* ForecastData.swift */; };
+		231B4FE727DC8FBE00B010C3 /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FE627DC8FBE00B010C3 /* GenericResponse.swift */; };
+		231B4FE827DC8FC900B010C3 /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FE627DC8FBE00B010C3 /* GenericResponse.swift */; };
+		231B4FE927DC8FCA00B010C3 /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FE627DC8FBE00B010C3 /* GenericResponse.swift */; };
+		231B4FEA27DC8FD700B010C3 /* ForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FE427DC8BEB00B010C3 /* ForecastData.swift */; };
+		231B4FEB27DC8FD800B010C3 /* ForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FE427DC8BEB00B010C3 /* ForecastData.swift */; };
+		231B4FEE27DC907200B010C3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 231B4FED27DC907200B010C3 /* Alamofire */; };
+		231B4FF027DC907F00B010C3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 231B4FEF27DC907F00B010C3 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +98,16 @@
 		231B4FA927DC73DC00B010C3 /* CleanWeather_Preprod.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CleanWeather_Preprod.plist; path = /Users/nikhil.nangia/Documents/github/CleanWeather/CleanWeather/CleanWeather_Preprod.plist; sourceTree = "<absolute>"; };
 		231B4FB727DC754C00B010C3 /* CleanWeather_Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanWeather_Staging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		231B4FB827DC754C00B010C3 /* CleanWeather_Staging.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CleanWeather_Staging.plist; path = /Users/nikhil.nangia/Documents/github/CleanWeather/CleanWeather/CleanWeather_Staging.plist; sourceTree = "<absolute>"; };
+		231B4FBF27DC8A0800B010C3 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		231B4FC027DC8A0800B010C3 /* APIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		231B4FC127DC8A0800B010C3 /* ListingAPIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingAPIRouter.swift; sourceTree = "<group>"; };
+		231B4FC227DC8A0800B010C3 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		231B4FC327DC8A0800B010C3 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		231B4FC427DC8A0800B010C3 /* RequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestAdapter.swift; sourceTree = "<group>"; };
+		231B4FC527DC8A0800B010C3 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		231B4FC627DC8A0800B010C3 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		231B4FE427DC8BEB00B010C3 /* ForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastData.swift; sourceTree = "<group>"; };
+		231B4FE627DC8FBE00B010C3 /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B4FBB27DC89B600B010C3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B4FEE27DC907200B010C3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B4FF027DC907F00B010C3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +161,7 @@
 				231B4F6927DC712900B010C3 /* Products */,
 				231B4FA927DC73DC00B010C3 /* CleanWeather_Preprod.plist */,
 				231B4FB827DC754C00B010C3 /* CleanWeather_Staging.plist */,
+				231B4FEC27DC907200B010C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +180,8 @@
 		231B4F6A27DC712900B010C3 /* CleanWeather */ = {
 			isa = PBXGroup;
 			children = (
+				231B4FDF27DC8B4700B010C3 /* Modules */,
+				231B4FBD27DC89FF00B010C3 /* Service */,
 				231B4F6B27DC712900B010C3 /* AppDelegate.swift */,
 				231B4F6D27DC712900B010C3 /* SceneDelegate.swift */,
 				231B4F6F27DC712900B010C3 /* ViewController.swift */,
@@ -161,6 +210,77 @@
 			path = CleanWeatherUITests;
 			sourceTree = "<group>";
 		};
+		231B4FBD27DC89FF00B010C3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				231B4FBE27DC8A0800B010C3 /* RestClient */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		231B4FBE27DC8A0800B010C3 /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				231B4FBF27DC8A0800B010C3 /* NetworkClient.swift */,
+				231B4FC027DC8A0800B010C3 /* APIConfiguration.swift */,
+				231B4FC127DC8A0800B010C3 /* ListingAPIRouter.swift */,
+				231B4FC227DC8A0800B010C3 /* Logger.swift */,
+				231B4FC327DC8A0800B010C3 /* Network.swift */,
+				231B4FC427DC8A0800B010C3 /* RequestAdapter.swift */,
+				231B4FC527DC8A0800B010C3 /* NetworkLogger.swift */,
+				231B4FC627DC8A0800B010C3 /* Urls.swift */,
+			);
+			path = RestClient;
+			sourceTree = "<group>";
+		};
+		231B4FDF27DC8B4700B010C3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				231B4FE327DC8BAD00B010C3 /* Model */,
+				231B4FE227DC8B6900B010C3 /* ForecastDetail */,
+				231B4FE127DC8B5E00B010C3 /* ForecastListing */,
+				231B4FE027DC8B4E00B010C3 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		231B4FE027DC8B4E00B010C3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		231B4FE127DC8B5E00B010C3 /* ForecastListing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForecastListing;
+			sourceTree = "<group>";
+		};
+		231B4FE227DC8B6900B010C3 /* ForecastDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForecastDetail;
+			sourceTree = "<group>";
+		};
+		231B4FE327DC8BAD00B010C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				231B4FE427DC8BEB00B010C3 /* ForecastData.swift */,
+				231B4FE627DC8FBE00B010C3 /* GenericResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		231B4FEC27DC907200B010C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,6 +297,9 @@
 			dependencies = (
 			);
 			name = CleanWeather;
+			packageProductDependencies = (
+				231B4FBA27DC89B600B010C3 /* Alamofire */,
+			);
 			productName = CleanWeather;
 			productReference = 231B4F6827DC712900B010C3 /* CleanWeather.app */;
 			productType = "com.apple.product-type.application";
@@ -230,6 +353,9 @@
 			dependencies = (
 			);
 			name = CleanWeather_Preprod;
+			packageProductDependencies = (
+				231B4FED27DC907200B010C3 /* Alamofire */,
+			);
 			productName = CleanWeather;
 			productReference = 231B4FA827DC73DC00B010C3 /* CleanWeather_Preprod.app */;
 			productType = "com.apple.product-type.application";
@@ -247,6 +373,9 @@
 			dependencies = (
 			);
 			name = CleanWeather_Staging;
+			packageProductDependencies = (
+				231B4FEF27DC907F00B010C3 /* Alamofire */,
+			);
 			productName = CleanWeather;
 			productReference = 231B4FB727DC754C00B010C3 /* CleanWeather_Staging.app */;
 			productType = "com.apple.product-type.application";
@@ -283,6 +412,9 @@
 				Base,
 			);
 			mainGroup = 231B4F5F27DC712900B010C3;
+			packageReferences = (
+				231B4FB927DC89B600B010C3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 231B4F6927DC712900B010C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -348,9 +480,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B4FCD27DC8A0800B010C3 /* NetworkLogger.swift in Sources */,
+				231B4FC927DC8A0800B010C3 /* ListingAPIRouter.swift in Sources */,
 				231B4F7027DC712900B010C3 /* ViewController.swift in Sources */,
+				231B4FCB27DC8A0800B010C3 /* Network.swift in Sources */,
+				231B4FCE27DC8A0800B010C3 /* Urls.swift in Sources */,
+				231B4FCC27DC8A0800B010C3 /* RequestAdapter.swift in Sources */,
 				231B4F6C27DC712900B010C3 /* AppDelegate.swift in Sources */,
+				231B4FC827DC8A0800B010C3 /* APIConfiguration.swift in Sources */,
+				231B4FCA27DC8A0800B010C3 /* Logger.swift in Sources */,
 				231B4F6E27DC712900B010C3 /* SceneDelegate.swift in Sources */,
+				231B4FE527DC8BEB00B010C3 /* ForecastData.swift in Sources */,
+				231B4FC727DC8A0800B010C3 /* NetworkClient.swift in Sources */,
+				231B4FE727DC8FBE00B010C3 /* GenericResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,9 +517,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B4FE827DC8FC900B010C3 /* GenericResponse.swift in Sources */,
+				231B4FD227DC8B2400B010C3 /* ListingAPIRouter.swift in Sources */,
+				231B4FEA27DC8FD700B010C3 /* ForecastData.swift in Sources */,
+				231B4FD127DC8B2400B010C3 /* NetworkLogger.swift in Sources */,
 				231B4F9D27DC73DC00B010C3 /* ViewController.swift in Sources */,
+				231B4FD427DC8B2400B010C3 /* APIConfiguration.swift in Sources */,
+				231B4FD727DC8B2400B010C3 /* Urls.swift in Sources */,
+				231B4FD527DC8B2400B010C3 /* Logger.swift in Sources */,
 				231B4F9E27DC73DC00B010C3 /* AppDelegate.swift in Sources */,
 				231B4F9F27DC73DC00B010C3 /* SceneDelegate.swift in Sources */,
+				231B4FD627DC8B2400B010C3 /* RequestAdapter.swift in Sources */,
+				231B4FD327DC8B2400B010C3 /* Network.swift in Sources */,
+				231B4FCF27DC8B1E00B010C3 /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,9 +537,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B4FE927DC8FCA00B010C3 /* GenericResponse.swift in Sources */,
+				231B4FD927DC8B2400B010C3 /* ListingAPIRouter.swift in Sources */,
+				231B4FEB27DC8FD800B010C3 /* ForecastData.swift in Sources */,
+				231B4FD827DC8B2400B010C3 /* NetworkLogger.swift in Sources */,
 				231B4FAC27DC754C00B010C3 /* ViewController.swift in Sources */,
+				231B4FDB27DC8B2400B010C3 /* APIConfiguration.swift in Sources */,
+				231B4FDE27DC8B2400B010C3 /* Urls.swift in Sources */,
+				231B4FDC27DC8B2400B010C3 /* Logger.swift in Sources */,
 				231B4FAD27DC754C00B010C3 /* AppDelegate.swift in Sources */,
 				231B4FAE27DC754C00B010C3 /* SceneDelegate.swift in Sources */,
+				231B4FDD27DC8B2400B010C3 /* RequestAdapter.swift in Sources */,
+				231B4FDA27DC8B2400B010C3 /* Network.swift in Sources */,
+				231B4FD027DC8B1F00B010C3 /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +639,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -532,7 +694,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -848,6 +1010,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		231B4FB927DC89B600B010C3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		231B4FBA27DC89B600B010C3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231B4FB927DC89B600B010C3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		231B4FED27DC907200B010C3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231B4FB927DC89B600B010C3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		231B4FEF27DC907F00B010C3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231B4FB927DC89B600B010C3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 231B4F6027DC712900B010C3 /* Project object */;
 }
