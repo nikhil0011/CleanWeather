@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 enum ListingAPIRouter: APIConfiguration {
-    case forecast
+    case forecast(location: String)
     var method: HTTPMethod {
         switch self {
         case .forecast: return .get
@@ -16,8 +16,8 @@ enum ListingAPIRouter: APIConfiguration {
     }
     var path: String {
         switch self {
-        case .forecast:
-            return Endpoint.recipes
+        case .forecast(let location):
+            return Endpoint.recipes + "&q=\(location)&days=7"
         }
     }
     var parameters: Parameters? {

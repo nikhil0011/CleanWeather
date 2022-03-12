@@ -39,7 +39,7 @@ class Network: NetworkClientProtocol {
             }
         }
     }
-    static func catalogue(completion: @escaping HTTPResponse<ForecastData>) {
-        performRequest(ListingAPIRouter.forecast, completion: completion)
+    static func forecast(location: String, completion: @escaping HTTPResponse<ForecastData>) {
+        performRequest(ListingAPIRouter.forecast(location: location), completion: completion)
     }
 }

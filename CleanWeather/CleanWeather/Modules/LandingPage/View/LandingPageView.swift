@@ -31,7 +31,6 @@ class LandingPageView: BaseView {
         $0.isUserInteractionEnabled = true
         $0.contentMode = .scaleAspectFit
         $0.layer.masksToBounds = true
-//        $0.addTarget(self, action: #selector(viewDetailTapped), for: .touchUpInside)
     }
     override func setupViews() {
         addsub(views: contentViewLayer)
