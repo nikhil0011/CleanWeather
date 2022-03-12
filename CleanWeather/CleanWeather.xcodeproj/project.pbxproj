@@ -61,6 +61,21 @@
 		231B4FEB27DC8FD800B010C3 /* ForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FE427DC8BEB00B010C3 /* ForecastData.swift */; };
 		231B4FEE27DC907200B010C3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 231B4FED27DC907200B010C3 /* Alamofire */; };
 		231B4FF027DC907F00B010C3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 231B4FEF27DC907F00B010C3 /* Alamofire */; };
+		231B4FF427DC959500B010C3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FF327DC959500B010C3 /* UIView+Extension.swift */; };
+		231B4FF527DC95BC00B010C3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FF327DC959500B010C3 /* UIView+Extension.swift */; };
+		231B4FF627DC95BD00B010C3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FF327DC959500B010C3 /* UIView+Extension.swift */; };
+		231B4FF827DC963000B010C3 /* SharedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FF727DC963000B010C3 /* SharedAlert.swift */; };
+		231B4FF927DC963000B010C3 /* SharedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FF727DC963000B010C3 /* SharedAlert.swift */; };
+		231B4FFA27DC963000B010C3 /* SharedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FF727DC963000B010C3 /* SharedAlert.swift */; };
+		231B4FFC27DC963E00B010C3 /* Creatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FFB27DC963E00B010C3 /* Creatable.swift */; };
+		231B4FFD27DC963E00B010C3 /* Creatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FFB27DC963E00B010C3 /* Creatable.swift */; };
+		231B4FFE27DC963E00B010C3 /* Creatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FFB27DC963E00B010C3 /* Creatable.swift */; };
+		231B500327DC969F00B010C3 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B500227DC969F00B010C3 /* LandingPageView.swift */; };
+		231B500427DC969F00B010C3 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B500227DC969F00B010C3 /* LandingPageView.swift */; };
+		231B500527DC969F00B010C3 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B500227DC969F00B010C3 /* LandingPageView.swift */; };
+		231B500927DC96C600B010C3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B500827DC96C600B010C3 /* BaseView.swift */; };
+		231B500A27DC96C600B010C3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B500827DC96C600B010C3 /* BaseView.swift */; };
+		231B500B27DC96C600B010C3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B500827DC96C600B010C3 /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +123,11 @@
 		231B4FC627DC8A0800B010C3 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
 		231B4FE427DC8BEB00B010C3 /* ForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastData.swift; sourceTree = "<group>"; };
 		231B4FE627DC8FBE00B010C3 /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
+		231B4FF327DC959500B010C3 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		231B4FF727DC963000B010C3 /* SharedAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAlert.swift; sourceTree = "<group>"; };
+		231B4FFB27DC963E00B010C3 /* Creatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creatable.swift; sourceTree = "<group>"; };
+		231B500227DC969F00B010C3 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		231B500827DC96C600B010C3 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,11 +200,11 @@
 		231B4F6A27DC712900B010C3 /* CleanWeather */ = {
 			isa = PBXGroup;
 			children = (
+				231B4FF127DC956500B010C3 /* CommonUtilites */,
 				231B4FDF27DC8B4700B010C3 /* Modules */,
 				231B4FBD27DC89FF00B010C3 /* Service */,
 				231B4F6B27DC712900B010C3 /* AppDelegate.swift */,
 				231B4F6D27DC712900B010C3 /* SceneDelegate.swift */,
-				231B4F6F27DC712900B010C3 /* ViewController.swift */,
 				231B4F7127DC712900B010C3 /* Main.storyboard */,
 				231B4F7427DC712B00B010C3 /* Assets.xcassets */,
 				231B4F7627DC712B00B010C3 /* LaunchScreen.storyboard */,
@@ -239,16 +259,18 @@
 				231B4FE327DC8BAD00B010C3 /* Model */,
 				231B4FE227DC8B6900B010C3 /* ForecastDetail */,
 				231B4FE127DC8B5E00B010C3 /* ForecastListing */,
-				231B4FE027DC8B4E00B010C3 /* Home */,
+				231B4FE027DC8B4E00B010C3 /* LandingPage */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		231B4FE027DC8B4E00B010C3 /* Home */ = {
+		231B4FE027DC8B4E00B010C3 /* LandingPage */ = {
 			isa = PBXGroup;
 			children = (
+				231B500027DC967700B010C3 /* Controller */,
+				231B4FFF27DC966500B010C3 /* View */,
 			);
-			path = Home;
+			path = LandingPage;
 			sourceTree = "<group>";
 		};
 		231B4FE127DC8B5E00B010C3 /* ForecastListing */ = {
@@ -279,6 +301,49 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		231B4FF127DC956500B010C3 /* CommonUtilites */ = {
+			isa = PBXGroup;
+			children = (
+				231B500627DC96A900B010C3 /* BaseView */,
+				231B4FF227DC958D00B010C3 /* Helper */,
+			);
+			path = CommonUtilites;
+			sourceTree = "<group>";
+		};
+		231B4FF227DC958D00B010C3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				231B4FF327DC959500B010C3 /* UIView+Extension.swift */,
+				231B4FF727DC963000B010C3 /* SharedAlert.swift */,
+				231B4FFB27DC963E00B010C3 /* Creatable.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		231B4FFF27DC966500B010C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				231B500227DC969F00B010C3 /* LandingPageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		231B500027DC967700B010C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				231B4F6F27DC712900B010C3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		231B500627DC96A900B010C3 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				231B500827DC96C600B010C3 /* BaseView.swift */,
+			);
+			path = BaseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -485,12 +550,17 @@
 				231B4F7027DC712900B010C3 /* ViewController.swift in Sources */,
 				231B4FCB27DC8A0800B010C3 /* Network.swift in Sources */,
 				231B4FCE27DC8A0800B010C3 /* Urls.swift in Sources */,
+				231B4FF827DC963000B010C3 /* SharedAlert.swift in Sources */,
 				231B4FCC27DC8A0800B010C3 /* RequestAdapter.swift in Sources */,
 				231B4F6C27DC712900B010C3 /* AppDelegate.swift in Sources */,
 				231B4FC827DC8A0800B010C3 /* APIConfiguration.swift in Sources */,
+				231B4FF427DC959500B010C3 /* UIView+Extension.swift in Sources */,
 				231B4FCA27DC8A0800B010C3 /* Logger.swift in Sources */,
+				231B500927DC96C600B010C3 /* BaseView.swift in Sources */,
+				231B500327DC969F00B010C3 /* LandingPageView.swift in Sources */,
 				231B4F6E27DC712900B010C3 /* SceneDelegate.swift in Sources */,
 				231B4FE527DC8BEB00B010C3 /* ForecastData.swift in Sources */,
+				231B4FFC27DC963E00B010C3 /* Creatable.swift in Sources */,
 				231B4FC727DC8A0800B010C3 /* NetworkClient.swift in Sources */,
 				231B4FE727DC8FBE00B010C3 /* GenericResponse.swift in Sources */,
 			);
@@ -522,12 +592,17 @@
 				231B4FEA27DC8FD700B010C3 /* ForecastData.swift in Sources */,
 				231B4FD127DC8B2400B010C3 /* NetworkLogger.swift in Sources */,
 				231B4F9D27DC73DC00B010C3 /* ViewController.swift in Sources */,
+				231B4FF927DC963000B010C3 /* SharedAlert.swift in Sources */,
 				231B4FD427DC8B2400B010C3 /* APIConfiguration.swift in Sources */,
 				231B4FD727DC8B2400B010C3 /* Urls.swift in Sources */,
 				231B4FD527DC8B2400B010C3 /* Logger.swift in Sources */,
+				231B4FF527DC95BC00B010C3 /* UIView+Extension.swift in Sources */,
 				231B4F9E27DC73DC00B010C3 /* AppDelegate.swift in Sources */,
+				231B500A27DC96C600B010C3 /* BaseView.swift in Sources */,
+				231B500427DC969F00B010C3 /* LandingPageView.swift in Sources */,
 				231B4F9F27DC73DC00B010C3 /* SceneDelegate.swift in Sources */,
 				231B4FD627DC8B2400B010C3 /* RequestAdapter.swift in Sources */,
+				231B4FFD27DC963E00B010C3 /* Creatable.swift in Sources */,
 				231B4FD327DC8B2400B010C3 /* Network.swift in Sources */,
 				231B4FCF27DC8B1E00B010C3 /* NetworkClient.swift in Sources */,
 			);
@@ -542,12 +617,17 @@
 				231B4FEB27DC8FD800B010C3 /* ForecastData.swift in Sources */,
 				231B4FD827DC8B2400B010C3 /* NetworkLogger.swift in Sources */,
 				231B4FAC27DC754C00B010C3 /* ViewController.swift in Sources */,
+				231B4FFA27DC963000B010C3 /* SharedAlert.swift in Sources */,
 				231B4FDB27DC8B2400B010C3 /* APIConfiguration.swift in Sources */,
 				231B4FDE27DC8B2400B010C3 /* Urls.swift in Sources */,
 				231B4FDC27DC8B2400B010C3 /* Logger.swift in Sources */,
+				231B4FF627DC95BD00B010C3 /* UIView+Extension.swift in Sources */,
 				231B4FAD27DC754C00B010C3 /* AppDelegate.swift in Sources */,
+				231B500B27DC96C600B010C3 /* BaseView.swift in Sources */,
+				231B500527DC969F00B010C3 /* LandingPageView.swift in Sources */,
 				231B4FAE27DC754C00B010C3 /* SceneDelegate.swift in Sources */,
 				231B4FDD27DC8B2400B010C3 /* RequestAdapter.swift in Sources */,
+				231B4FFE27DC963E00B010C3 /* Creatable.swift in Sources */,
 				231B4FDA27DC8B2400B010C3 /* Network.swift in Sources */,
 				231B4FD027DC8B1F00B010C3 /* NetworkClient.swift in Sources */,
 			);
