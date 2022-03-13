@@ -14,9 +14,9 @@ protocol NetworkClientProtocol {
 class Network: NetworkClientProtocol {
    static func performRequest<T: Decodable>(_ router: APIConfiguration?, completion: @escaping HTTPResponse<T>) {
        guard let router = router else { return }
-       router.urlRequest?.log()
+//       router.urlRequest?.log()
         NetworkClient.request(router).responseDecodable(of: T.self) { (response) in
-            response.response?.log(response: response)
+//            response.response?.log(response: response)
 
             switch response.result {
             case let .success(value):

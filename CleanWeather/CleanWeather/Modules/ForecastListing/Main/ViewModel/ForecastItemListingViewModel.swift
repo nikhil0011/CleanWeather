@@ -10,7 +10,6 @@ typealias HeaderData = (Current, Location)
 let DegreeCelsuis = "°C"
 let DegreeFarhenite = "°F"
 class ForecastItemListingViewModel {
-    
     let date: String
     let uvValue: String
     var tempRange: String {

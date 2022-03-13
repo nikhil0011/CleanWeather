@@ -29,8 +29,10 @@ class MainCoordinator: Coordinator {
     func navigateToForecase(location: String) {
         let vc = ForecastListingViewController()
         vc.coordinator = self
+        let isConnected = Reachability.isConnectedToNetwork()
+        let source: DataSource = isConnected ? .remote : .local
         let presenter = ForecastListingPresenter(output: WeakRef(vc))
-        let usecase = ForecastListingUseCase(output: presenter)
+        let usecase = ForecastListingUseCase(output: presenter, source: source)
         usecase.fetch(location: location)
         navigationController.pushViewController(vc, animated: true)
     }

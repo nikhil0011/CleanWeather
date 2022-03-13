@@ -24,5 +24,4 @@ struct ForecastListingViewModel {
         }
         return itemViewModelList
     }
-
 }

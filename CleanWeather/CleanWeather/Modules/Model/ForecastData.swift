@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+typealias FORECAST_ITEM = ForecastData
 // MARK: - ForecastData
 struct ForecastData: Codable {
     let location: Location
@@ -52,7 +52,6 @@ struct Forecastday: Codable {
     }
 }
 
-
 // MARK: - Day
 struct Day: Codable {
     let maxtempC, maxtempF, mintempC, mintempF: Double
@@ -68,7 +67,6 @@ struct Day: Codable {
         case uv
     }
 }
-
 // MARK: - Hour
 struct Hour: Codable {
     let time: String
@@ -89,7 +87,6 @@ struct Hour: Codable {
         case uv
     }
 }
-
 // MARK: - Location
 struct Location: Codable {
     let name, region, country: String

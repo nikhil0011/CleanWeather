@@ -47,6 +47,7 @@ open class ActivityIndicator {
     }
     // Showing Progress view
     open func showProgressView(_ view: UIView) {
+        guard Reachability.isConnectedToNetwork() else { return }
         view.endEditing(true)
         self.containerView.frame = view.frame
         self.containerView.center = view.center

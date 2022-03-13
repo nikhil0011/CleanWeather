@@ -220,6 +220,28 @@
 		231B50E827DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50E727DD372300B010C3 /* ForecastHeaderViewModel.swift */; };
 		231B50E927DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50E727DD372300B010C3 /* ForecastHeaderViewModel.swift */; };
 		231B50EA27DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50E727DD372300B010C3 /* ForecastHeaderViewModel.swift */; };
+		231B50F127DDC67E00B010C3 /* ForecastListingControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50F027DDC67E00B010C3 /* ForecastListingControllerTests.swift */; };
+		231B50F427DDC7E300B010C3 /* ForecastListingDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50F327DDC7E300B010C3 /* ForecastListingDataSourceTests.swift */; };
+		231B50F827DDCA7B00B010C3 /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50F727DDCA7B00B010C3 /* NetworkTests.swift */; };
+		231B50FB27DDD34C00B010C3 /* ForecastListingPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B50FA27DDD34C00B010C3 /* ForecastListingPresenterTests.swift */; };
+		231B50FE27DDDA5B00B010C3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 231B50FD27DDDA5B00B010C3 /* Realm */; };
+		231B510027DDDA5B00B010C3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 231B50FF27DDDA5B00B010C3 /* RealmSwift */; };
+		231B510227DDDA6C00B010C3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 231B510127DDDA6C00B010C3 /* Realm */; };
+		231B510427DDDA6C00B010C3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 231B510327DDDA6C00B010C3 /* RealmSwift */; };
+		231B510627DDDA7200B010C3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 231B510527DDDA7200B010C3 /* Realm */; };
+		231B510827DDDA7200B010C3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 231B510727DDDA7200B010C3 /* RealmSwift */; };
+		231B510E27DDE95200B010C3 /* ForecastDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B510D27DDE95200B010C3 /* ForecastDataRepository.swift */; };
+		231B510F27DDE95200B010C3 /* ForecastDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B510D27DDE95200B010C3 /* ForecastDataRepository.swift */; };
+		231B511027DDE95200B010C3 /* ForecastDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B510D27DDE95200B010C3 /* ForecastDataRepository.swift */; };
+		231B511227DDEA9100B010C3 /* ForecastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511127DDEA9100B010C3 /* ForecastManager.swift */; };
+		231B511327DDEA9100B010C3 /* ForecastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511127DDEA9100B010C3 /* ForecastManager.swift */; };
+		231B511427DDEA9100B010C3 /* ForecastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511127DDEA9100B010C3 /* ForecastManager.swift */; };
+		231B511627DDEBA900B010C3 /* RMForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511527DDEBA900B010C3 /* RMForecastData.swift */; };
+		231B511727DDEBA900B010C3 /* RMForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511527DDEBA900B010C3 /* RMForecastData.swift */; };
+		231B511827DDEBA900B010C3 /* RMForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511527DDEBA900B010C3 /* RMForecastData.swift */; };
+		231B511A27DE21A100B010C3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511927DE21A100B010C3 /* Reachability.swift */; };
+		231B511B27DE21A100B010C3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511927DE21A100B010C3 /* Reachability.swift */; };
+		231B511C27DE21A100B010C3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511927DE21A100B010C3 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -320,6 +342,14 @@
 		231B50DF27DD306E00B010C3 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		231B50E327DD31E000B010C3 /* NSConstantMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSConstantMethods.swift; sourceTree = "<group>"; };
 		231B50E727DD372300B010C3 /* ForecastHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastHeaderViewModel.swift; sourceTree = "<group>"; };
+		231B50F027DDC67E00B010C3 /* ForecastListingControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListingControllerTests.swift; sourceTree = "<group>"; };
+		231B50F327DDC7E300B010C3 /* ForecastListingDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListingDataSourceTests.swift; sourceTree = "<group>"; };
+		231B50F727DDCA7B00B010C3 /* NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
+		231B50FA27DDD34C00B010C3 /* ForecastListingPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListingPresenterTests.swift; sourceTree = "<group>"; };
+		231B510D27DDE95200B010C3 /* ForecastDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDataRepository.swift; sourceTree = "<group>"; };
+		231B511127DDEA9100B010C3 /* ForecastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastManager.swift; sourceTree = "<group>"; };
+		231B511527DDEBA900B010C3 /* RMForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMForecastData.swift; sourceTree = "<group>"; };
+		231B511927DE21A100B010C3 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +357,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B510027DDDA5B00B010C3 /* RealmSwift in Frameworks */,
+				231B50FE27DDDA5B00B010C3 /* Realm in Frameworks */,
 				231B4FBB27DC89B600B010C3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +381,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B510427DDDA6C00B010C3 /* RealmSwift in Frameworks */,
+				231B510227DDDA6C00B010C3 /* Realm in Frameworks */,
 				231B4FEE27DC907200B010C3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +391,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B510827DDDA7200B010C3 /* RealmSwift in Frameworks */,
+				231B510627DDDA7200B010C3 /* Realm in Frameworks */,
 				231B4FF027DC907F00B010C3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +428,7 @@
 		231B4F6A27DC712900B010C3 /* CleanWeather */ = {
 			isa = PBXGroup;
 			children = (
+				231B510927DDE8E600B010C3 /* RealmOperations */,
 				231B4FF127DC956500B010C3 /* CommonUtilites */,
 				231B4FDF27DC8B4700B010C3 /* Modules */,
 				231B4FBD27DC89FF00B010C3 /* Service */,
@@ -407,6 +444,8 @@
 		231B4F8127DC712C00B010C3 /* CleanWeatherTests */ = {
 			isa = PBXGroup;
 			children = (
+				231B50F527DDCA5C00B010C3 /* Service */,
+				231B50EB27DDC63000B010C3 /* Modules */,
 				231B4F8227DC712C00B010C3 /* CleanWeatherTests.swift */,
 			);
 			path = CleanWeatherTests;
@@ -447,8 +486,8 @@
 		231B4FDF27DC8B4700B010C3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				231B50D827DD2F7600B010C3 /* Settings */,
 				231B506627DCC02B00B010C3 /* BaseNavigationViewController.swift */,
+				231B50D827DD2F7600B010C3 /* Settings */,
 				231B504827DCBBFC00B010C3 /* Coordinator */,
 				231B4FE327DC8BAD00B010C3 /* Model */,
 				231B4FE227DC8B6900B010C3 /* ForecastDetail */,
@@ -526,6 +565,7 @@
 				231B506227DCBF2900B010C3 /* ActivityIndicator.swift */,
 				231B509327DCC87700B010C3 /* ReusableView.swift */,
 				231B50E327DD31E000B010C3 /* NSConstantMethods.swift */,
+				231B511927DE21A100B010C3 /* Reachability.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -786,6 +826,106 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		231B50EB27DDC63000B010C3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				231B50EC27DDC63900B010C3 /* ForecastListing */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		231B50EC27DDC63900B010C3 /* ForecastListing */ = {
+			isa = PBXGroup;
+			children = (
+				231B50ED27DDC64100B010C3 /* Main */,
+			);
+			path = ForecastListing;
+			sourceTree = "<group>";
+		};
+		231B50ED27DDC64100B010C3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				231B50F927DDD31C00B010C3 /* Presenter */,
+				231B50F227DDC7D800B010C3 /* DataSource */,
+				231B50EE27DDC65F00B010C3 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		231B50EE27DDC65F00B010C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				231B50F027DDC67E00B010C3 /* ForecastListingControllerTests.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		231B50F227DDC7D800B010C3 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				231B50F327DDC7E300B010C3 /* ForecastListingDataSourceTests.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		231B50F527DDCA5C00B010C3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				231B50F627DDCA7100B010C3 /* Restclient */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		231B50F627DDCA7100B010C3 /* Restclient */ = {
+			isa = PBXGroup;
+			children = (
+				231B50F727DDCA7B00B010C3 /* NetworkTests.swift */,
+			);
+			path = Restclient;
+			sourceTree = "<group>";
+		};
+		231B50F927DDD31C00B010C3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				231B50FA27DDD34C00B010C3 /* ForecastListingPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		231B510927DDE8E600B010C3 /* RealmOperations */ = {
+			isa = PBXGroup;
+			children = (
+				231B510C27DDE90C00B010C3 /* Manager */,
+				231B510B27DDE8FA00B010C3 /* Repository */,
+				231B510A27DDE8F200B010C3 /* RMObjects */,
+			);
+			path = RealmOperations;
+			sourceTree = "<group>";
+		};
+		231B510A27DDE8F200B010C3 /* RMObjects */ = {
+			isa = PBXGroup;
+			children = (
+				231B511527DDEBA900B010C3 /* RMForecastData.swift */,
+			);
+			path = RMObjects;
+			sourceTree = "<group>";
+		};
+		231B510B27DDE8FA00B010C3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				231B510D27DDE95200B010C3 /* ForecastDataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		231B510C27DDE90C00B010C3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				231B511127DDEA9100B010C3 /* ForecastManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -804,6 +944,8 @@
 			name = CleanWeather;
 			packageProductDependencies = (
 				231B4FBA27DC89B600B010C3 /* Alamofire */,
+				231B50FD27DDDA5B00B010C3 /* Realm */,
+				231B50FF27DDDA5B00B010C3 /* RealmSwift */,
 			);
 			productName = CleanWeather;
 			productReference = 231B4F6827DC712900B010C3 /* CleanWeather.app */;
@@ -860,6 +1002,8 @@
 			name = CleanWeather_Preprod;
 			packageProductDependencies = (
 				231B4FED27DC907200B010C3 /* Alamofire */,
+				231B510127DDDA6C00B010C3 /* Realm */,
+				231B510327DDDA6C00B010C3 /* RealmSwift */,
 			);
 			productName = CleanWeather;
 			productReference = 231B4FA827DC73DC00B010C3 /* CleanWeather_Preprod.app */;
@@ -880,6 +1024,8 @@
 			name = CleanWeather_Staging;
 			packageProductDependencies = (
 				231B4FEF27DC907F00B010C3 /* Alamofire */,
+				231B510527DDDA7200B010C3 /* Realm */,
+				231B510727DDDA7200B010C3 /* RealmSwift */,
 			);
 			productName = CleanWeather;
 			productReference = 231B4FB727DC754C00B010C3 /* CleanWeather_Staging.app */;
@@ -919,6 +1065,7 @@
 			mainGroup = 231B4F5F27DC712900B010C3;
 			packageReferences = (
 				231B4FB927DC89B600B010C3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				231B50FC27DDDA5B00B010C3 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 231B4F6927DC712900B010C3 /* Products */;
 			projectDirPath = "";
@@ -994,6 +1141,7 @@
 				231B4F7027DC712900B010C3 /* ViewController.swift in Sources */,
 				231B506727DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */,
 				231B50E827DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */,
+				231B510E27DDE95200B010C3 /* ForecastDataRepository.swift in Sources */,
 				231B507727DCC69000B010C3 /* ArrayDataProvider.swift in Sources */,
 				231B508027DCC69000B010C3 /* ConfigurableCell.swift in Sources */,
 				231B501D27DCB64200B010C3 /* Opacity.swift in Sources */,
@@ -1009,8 +1157,11 @@
 				231B50BC27DD01FB00B010C3 /* ForecastDetailViewModel.swift in Sources */,
 				231B50A927DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */,
 				231B503B27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
+				231B511A27DE21A100B010C3 /* Reachability.swift in Sources */,
 				231B509827DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
 				231B50CD27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift in Sources */,
+				231B511227DDEA9100B010C3 /* ForecastManager.swift in Sources */,
+				231B511627DDEBA900B010C3 /* RMForecastData.swift in Sources */,
 				231B502327DCB64200B010C3 /* LetterSpacing.swift in Sources */,
 				231B508C27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */,
 				231B50B427DD01E500B010C3 /* ForecastDetailPresenter.swift in Sources */,
@@ -1057,6 +1208,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				231B4F8327DC712C00B010C3 /* CleanWeatherTests.swift in Sources */,
+				231B50F427DDC7E300B010C3 /* ForecastListingDataSourceTests.swift in Sources */,
+				231B50FB27DDD34C00B010C3 /* ForecastListingPresenterTests.swift in Sources */,
+				231B50F827DDCA7B00B010C3 /* NetworkTests.swift in Sources */,
+				231B50F127DDC67E00B010C3 /* ForecastListingControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1085,6 +1240,7 @@
 				231B4FEA27DC8FD700B010C3 /* ForecastData.swift in Sources */,
 				231B506827DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */,
 				231B50E927DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */,
+				231B510F27DDE95200B010C3 /* ForecastDataRepository.swift in Sources */,
 				231B507827DCC69000B010C3 /* ArrayDataProvider.swift in Sources */,
 				231B508127DCC69000B010C3 /* ConfigurableCell.swift in Sources */,
 				231B501E27DCB64200B010C3 /* Opacity.swift in Sources */,
@@ -1100,8 +1256,11 @@
 				231B50BD27DD01FB00B010C3 /* ForecastDetailViewModel.swift in Sources */,
 				231B50AA27DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */,
 				231B503C27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
+				231B511B27DE21A100B010C3 /* Reachability.swift in Sources */,
 				231B509927DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
 				231B50CE27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift in Sources */,
+				231B511327DDEA9100B010C3 /* ForecastManager.swift in Sources */,
+				231B511727DDEBA900B010C3 /* RMForecastData.swift in Sources */,
 				231B502427DCB64200B010C3 /* LetterSpacing.swift in Sources */,
 				231B508D27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */,
 				231B50B527DD01E500B010C3 /* ForecastDetailPresenter.swift in Sources */,
@@ -1159,6 +1318,7 @@
 				231B4FEB27DC8FD800B010C3 /* ForecastData.swift in Sources */,
 				231B506927DCC02B00B010C3 /* BaseNavigationViewController.swift in Sources */,
 				231B50EA27DD372300B010C3 /* ForecastHeaderViewModel.swift in Sources */,
+				231B511027DDE95200B010C3 /* ForecastDataRepository.swift in Sources */,
 				231B507927DCC69000B010C3 /* ArrayDataProvider.swift in Sources */,
 				231B508227DCC69000B010C3 /* ConfigurableCell.swift in Sources */,
 				231B501F27DCB64200B010C3 /* Opacity.swift in Sources */,
@@ -1174,8 +1334,11 @@
 				231B50BE27DD01FB00B010C3 /* ForecastDetailViewModel.swift in Sources */,
 				231B50AB27DCF6A800B010C3 /* ForecastListingHeaderView.swift in Sources */,
 				231B503D27DCB75400B010C3 /* LandingPageStyler+Extension.swift in Sources */,
+				231B511C27DE21A100B010C3 /* Reachability.swift in Sources */,
 				231B509A27DCCB8000B010C3 /* ForecastListingItemView.swift in Sources */,
 				231B50CF27DD23BD00B010C3 /* ForecastHourCollectionViewCell.swift in Sources */,
+				231B511427DDEA9100B010C3 /* ForecastManager.swift in Sources */,
+				231B511827DDEBA900B010C3 /* RMForecastData.swift in Sources */,
 				231B502527DCB64200B010C3 /* LetterSpacing.swift in Sources */,
 				231B508E27DCC6E000B010C3 /* ForecastListingDataSource.swift in Sources */,
 				231B50B627DD01E500B010C3 /* ForecastDetailPresenter.swift in Sources */,
@@ -1423,7 +1586,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W28Q572LJ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bundle.CleanWeatherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1443,7 +1606,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W28Q572LJ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bundle.CleanWeatherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1670,6 +1833,14 @@
 				kind = branch;
 			};
 		};
+		231B50FC27DDDA5B00B010C3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1687,6 +1858,36 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 231B4FB927DC89B600B010C3 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		231B50FD27DDDA5B00B010C3 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231B50FC27DDDA5B00B010C3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		231B50FF27DDDA5B00B010C3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231B50FC27DDDA5B00B010C3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		231B510127DDDA6C00B010C3 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231B50FC27DDDA5B00B010C3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		231B510327DDDA6C00B010C3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231B50FC27DDDA5B00B010C3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		231B510527DDDA7200B010C3 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231B50FC27DDDA5B00B010C3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		231B510727DDDA7200B010C3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231B50FC27DDDA5B00B010C3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
