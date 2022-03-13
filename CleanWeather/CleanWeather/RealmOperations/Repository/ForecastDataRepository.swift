@@ -8,6 +8,7 @@
 import Foundation
 import CoreData
 import RealmSwift
+import UIKit
 
 protocol ForecastRepository {
     func create(_ forecast: FORECAST_ITEM)
@@ -18,9 +19,12 @@ protocol ForecastRepository {
 }
 
 struct ForecastDataRepository : ForecastRepository {
-    let realm = try! Realm()
+    var realm: Realm?
+    init(realm: Realm?) {
+        self.realm = realm
+    }
     func create(_ forecast: FORECAST_ITEM) {
-        try! realm.write {
+        try? realm?.write {
             let object = RMForecastData()
             object.id = UUID()
             object.location?.name =  forecast.location.name
@@ -71,12 +75,12 @@ struct ForecastDataRepository : ForecastRepository {
             }
             object.forecast?.forecastDay = rmForecastDays
 
-            realm.add(object, update: .all)
+            realm?.add(object, update: .all)
         }
     }
     
     func getAll() -> [FORECAST_ITEM]? {
-        return realm.objects(RMForecastData.self).map { object in
+        return realm?.objects(RMForecastData.self).map { object in
             return object.makeItem()
         }
     }
@@ -92,7 +96,7 @@ struct ForecastDataRepository : ForecastRepository {
         guard let object = result  else {
             return false
         }
-        try! realm.write {
+        try? realm?.write {
             object.location?.region =  forecast.location.region
             object.location?.country =  forecast.location.country
             object.location?.lat =  forecast.location.lat
@@ -147,14 +151,16 @@ struct ForecastDataRepository : ForecastRepository {
         guard let data = object  else {
             return false
         }
-        try! realm.write {
+        try? realm?.write {
             // Delete the LocalOnlyQsTask.
-            realm.delete(data)
+            realm?.delete(data)
         }
         return true
     }
     private func getItem(by name: String) -> RMForecastData? {
-        let tasks = realm.objects(RMForecastData.self)
+        guard let tasks = realm?.objects(RMForecastData.self) else {
+            return nil
+        }
         let object = tasks.where {
             $0.location.name.contains(name)
         }

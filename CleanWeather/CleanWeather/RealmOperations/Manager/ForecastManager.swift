@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import RealmSwift
 struct ForecastManager {
-    private let forecastDataRepository: ForecastDataRepository = ForecastDataRepository()
+    private let forecastDataRepository: ForecastDataRepository = ForecastDataRepository(realm: try? Realm())
     
     func append(forecast: FORECAST_ITEM) {
         guard fetchForecast(for: forecast.location.name) == nil else {
