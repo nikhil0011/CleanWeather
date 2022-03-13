@@ -27,7 +27,7 @@ class ForecastItemListingViewModel {
     
     init(day: Forecastday) {
         self.day = day
-        self.date = day.date
+        self.date = "Weather for \(day.date)"
         self.uvValue = "UV- \(day.day.uv)"
     }
     var itemHeight: CGFloat {
