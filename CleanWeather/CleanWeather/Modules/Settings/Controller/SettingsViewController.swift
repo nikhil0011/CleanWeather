@@ -19,6 +19,10 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
         self.title = "Settings"
         self.view.stack(settingView)
+        customiseBackItem(image: UIImage.App.dismiss, action: #selector(navigateBack))
+    }
+    @objc func navigateBack(sender: UIButton) {
+        coordinator?.dismiss()
     }
     @objc func unitChanged() {
         NSConstantMethods.instance.currentTempUnitIsCelsuis = settingView.unitSwitch.isOn

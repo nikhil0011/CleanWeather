@@ -77,5 +77,6 @@ class LandingPageStyler {
 extension UIImage {
     struct App {
         static let settings = "icons8-settings-28"
+        static let dismiss = "dismiss"
     }
 }

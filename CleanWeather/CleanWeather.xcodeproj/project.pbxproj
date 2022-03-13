@@ -32,18 +32,15 @@
 		231B4FCA27DC8A0800B010C3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC227DC8A0800B010C3 /* Logger.swift */; };
 		231B4FCB27DC8A0800B010C3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC327DC8A0800B010C3 /* Network.swift */; };
 		231B4FCC27DC8A0800B010C3 /* RequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC427DC8A0800B010C3 /* RequestAdapter.swift */; };
-		231B4FCD27DC8A0800B010C3 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC527DC8A0800B010C3 /* NetworkLogger.swift */; };
 		231B4FCE27DC8A0800B010C3 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC627DC8A0800B010C3 /* Urls.swift */; };
 		231B4FCF27DC8B1E00B010C3 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FBF27DC8A0800B010C3 /* NetworkClient.swift */; };
 		231B4FD027DC8B1F00B010C3 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FBF27DC8A0800B010C3 /* NetworkClient.swift */; };
-		231B4FD127DC8B2400B010C3 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC527DC8A0800B010C3 /* NetworkLogger.swift */; };
 		231B4FD227DC8B2400B010C3 /* ListingAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC127DC8A0800B010C3 /* ListingAPIRouter.swift */; };
 		231B4FD327DC8B2400B010C3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC327DC8A0800B010C3 /* Network.swift */; };
 		231B4FD427DC8B2400B010C3 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC027DC8A0800B010C3 /* APIConfiguration.swift */; };
 		231B4FD527DC8B2400B010C3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC227DC8A0800B010C3 /* Logger.swift */; };
 		231B4FD627DC8B2400B010C3 /* RequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC427DC8A0800B010C3 /* RequestAdapter.swift */; };
 		231B4FD727DC8B2400B010C3 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC627DC8A0800B010C3 /* Urls.swift */; };
-		231B4FD827DC8B2400B010C3 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC527DC8A0800B010C3 /* NetworkLogger.swift */; };
 		231B4FD927DC8B2400B010C3 /* ListingAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC127DC8A0800B010C3 /* ListingAPIRouter.swift */; };
 		231B4FDA27DC8B2400B010C3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC327DC8A0800B010C3 /* Network.swift */; };
 		231B4FDB27DC8B2400B010C3 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B4FC027DC8A0800B010C3 /* APIConfiguration.swift */; };
@@ -242,6 +239,13 @@
 		231B511A27DE21A100B010C3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511927DE21A100B010C3 /* Reachability.swift */; };
 		231B511B27DE21A100B010C3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511927DE21A100B010C3 /* Reachability.swift */; };
 		231B511C27DE21A100B010C3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511927DE21A100B010C3 /* Reachability.swift */; };
+		231B512027DE659000B010C3 /* ForecastManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B511F27DE659000B010C3 /* ForecastManagerTests.swift */; };
+		231B512227DE694000B010C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B512127DE693F00B010C3 /* Extensions.swift */; };
+		231B512327DE694000B010C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B512127DE693F00B010C3 /* Extensions.swift */; };
+		231B512427DE694000B010C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B512127DE693F00B010C3 /* Extensions.swift */; };
+		231B512627DE6A8C00B010C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 231B512527DE6A8C00B010C3 /* README.md */; };
+		231B512727DE6A8C00B010C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 231B512527DE6A8C00B010C3 /* README.md */; };
+		231B512827DE6A8C00B010C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 231B512527DE6A8C00B010C3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -284,7 +288,6 @@
 		231B4FC227DC8A0800B010C3 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		231B4FC327DC8A0800B010C3 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		231B4FC427DC8A0800B010C3 /* RequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestAdapter.swift; sourceTree = "<group>"; };
-		231B4FC527DC8A0800B010C3 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
 		231B4FC627DC8A0800B010C3 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
 		231B4FE427DC8BEB00B010C3 /* ForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastData.swift; sourceTree = "<group>"; };
 		231B4FE627DC8FBE00B010C3 /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
@@ -350,6 +353,9 @@
 		231B511127DDEA9100B010C3 /* ForecastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastManager.swift; sourceTree = "<group>"; };
 		231B511527DDEBA900B010C3 /* RMForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMForecastData.swift; sourceTree = "<group>"; };
 		231B511927DE21A100B010C3 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		231B511F27DE659000B010C3 /* ForecastManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastManagerTests.swift; sourceTree = "<group>"; };
+		231B512127DE693F00B010C3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		231B512527DE6A8C00B010C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -403,6 +409,7 @@
 		231B4F5F27DC712900B010C3 = {
 			isa = PBXGroup;
 			children = (
+				231B512527DE6A8C00B010C3 /* README.md */,
 				231B4F6A27DC712900B010C3 /* CleanWeather */,
 				231B4F8127DC712C00B010C3 /* CleanWeatherTests */,
 				231B4F8B27DC712C00B010C3 /* CleanWeatherUITests */,
@@ -444,6 +451,7 @@
 		231B4F8127DC712C00B010C3 /* CleanWeatherTests */ = {
 			isa = PBXGroup;
 			children = (
+				231B511E27DE657E00B010C3 /* RealmOperations */,
 				231B50F527DDCA5C00B010C3 /* Service */,
 				231B50EB27DDC63000B010C3 /* Modules */,
 				231B4F8227DC712C00B010C3 /* CleanWeatherTests.swift */,
@@ -477,7 +485,6 @@
 				231B4FC227DC8A0800B010C3 /* Logger.swift */,
 				231B4FC327DC8A0800B010C3 /* Network.swift */,
 				231B4FC427DC8A0800B010C3 /* RequestAdapter.swift */,
-				231B4FC527DC8A0800B010C3 /* NetworkLogger.swift */,
 				231B4FC627DC8A0800B010C3 /* Urls.swift */,
 			);
 			path = RestClient;
@@ -566,6 +573,7 @@
 				231B509327DCC87700B010C3 /* ReusableView.swift */,
 				231B50E327DD31E000B010C3 /* NSConstantMethods.swift */,
 				231B511927DE21A100B010C3 /* Reachability.swift */,
+				231B512127DE693F00B010C3 /* Extensions.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -926,6 +934,14 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		231B511E27DE657E00B010C3 /* RealmOperations */ = {
+			isa = PBXGroup;
+			children = (
+				231B511F27DE659000B010C3 /* ForecastManagerTests.swift */,
+			);
+			path = RealmOperations;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1085,6 +1101,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B512627DE6A8C00B010C3 /* README.md in Resources */,
 				231B4F7827DC712B00B010C3 /* LaunchScreen.storyboard in Resources */,
 				231B4F7527DC712B00B010C3 /* Assets.xcassets in Resources */,
 			);
@@ -1108,6 +1125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B512727DE6A8C00B010C3 /* README.md in Resources */,
 				231B4FA227DC73DC00B010C3 /* LaunchScreen.storyboard in Resources */,
 				231B4FA327DC73DC00B010C3 /* Assets.xcassets in Resources */,
 			);
@@ -1117,6 +1135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B512827DE6A8C00B010C3 /* README.md in Resources */,
 				231B4FB127DC754C00B010C3 /* LaunchScreen.storyboard in Resources */,
 				231B4FB227DC754C00B010C3 /* Assets.xcassets in Resources */,
 			);
@@ -1131,7 +1150,6 @@
 			files = (
 				231B504527DCBBAF00B010C3 /* ForecastListingView.swift in Sources */,
 				231B50D127DD241200B010C3 /* ForecastDetailItemViewModel.swift in Sources */,
-				231B4FCD27DC8A0800B010C3 /* NetworkLogger.swift in Sources */,
 				231B507D27DCC69000B010C3 /* CollectionDataProvider.swift in Sources */,
 				231B506327DCBF2900B010C3 /* ActivityIndicator.swift in Sources */,
 				231B4FC927DC8A0800B010C3 /* ListingAPIRouter.swift in Sources */,
@@ -1148,6 +1166,7 @@
 				231B50B827DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift in Sources */,
 				231B50D527DD257000B010C3 /* ForecastHourDetailDataSource.swift in Sources */,
 				231B50A127DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */,
+				231B512227DE694000B010C3 /* Extensions.swift in Sources */,
 				231B4FCB27DC8A0800B010C3 /* Network.swift in Sources */,
 				231B4FCE27DC8A0800B010C3 /* Urls.swift in Sources */,
 				231B4FF827DC963000B010C3 /* SharedAlert.swift in Sources */,
@@ -1209,6 +1228,7 @@
 			files = (
 				231B4F8327DC712C00B010C3 /* CleanWeatherTests.swift in Sources */,
 				231B50F427DDC7E300B010C3 /* ForecastListingDataSourceTests.swift in Sources */,
+				231B512027DE659000B010C3 /* ForecastManagerTests.swift in Sources */,
 				231B50FB27DDD34C00B010C3 /* ForecastListingPresenterTests.swift in Sources */,
 				231B50F827DDCA7B00B010C3 /* NetworkTests.swift in Sources */,
 				231B50F127DDC67E00B010C3 /* ForecastListingControllerTests.swift in Sources */,
@@ -1247,7 +1267,7 @@
 				231B50B927DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift in Sources */,
 				231B50D627DD257000B010C3 /* ForecastHourDetailDataSource.swift in Sources */,
 				231B50A227DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */,
-				231B4FD127DC8B2400B010C3 /* NetworkLogger.swift in Sources */,
+				231B512327DE694000B010C3 /* Extensions.swift in Sources */,
 				231B4F9D27DC73DC00B010C3 /* ViewController.swift in Sources */,
 				231B4FF927DC963000B010C3 /* SharedAlert.swift in Sources */,
 				231B50C527DD022A00B010C3 /* ForecastDetailViewController.swift in Sources */,
@@ -1325,7 +1345,7 @@
 				231B50BA27DD01EF00B010C3 /* ForecastDetailStyler+Extension.swift in Sources */,
 				231B50D727DD257000B010C3 /* ForecastHourDetailDataSource.swift in Sources */,
 				231B50A327DCCC1600B010C3 /* ForecastListingStyler+Extension.swift in Sources */,
-				231B4FD827DC8B2400B010C3 /* NetworkLogger.swift in Sources */,
+				231B512427DE694000B010C3 /* Extensions.swift in Sources */,
 				231B4FAC27DC754C00B010C3 /* ViewController.swift in Sources */,
 				231B4FFA27DC963000B010C3 /* SharedAlert.swift in Sources */,
 				231B50C627DD022A00B010C3 /* ForecastDetailViewController.swift in Sources */,

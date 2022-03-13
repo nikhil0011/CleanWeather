@@ -24,6 +24,7 @@ class LandingPageView: BaseView {
     lazy var inputField: UITextField = UITextField.create {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.borderStyle = .roundedRect
+        $0.placeholder = "Enter your city name"
     }
     var doneButton: UIButton = UIButton.create {
         $0.backgroundColor = UIColor.black
@@ -35,7 +36,7 @@ class LandingPageView: BaseView {
     override func setupViews() {
         addsub(views: contentViewLayer)
         contentViewLayer.addsub(views: titleLabel, subTitleLabel, inputField, doneButton)
-        contentViewLayer.fillSuperview(padding: .init(top: 40, left: 20, bottom: 20, right: 20))
+        contentViewLayer.fillSuperview(padding: .init(top: 20, left: 20, bottom: 20, right: 20))
         titleLabel.anchor(top: contentViewLayer.topAnchor, left: contentViewLayer.leftAnchor, bottom: nil, right: contentViewLayer.rightAnchor, paddingTop: 12)
         subTitleLabel.anchor(top: titleLabel.bottomAnchor, left: contentViewLayer.leftAnchor, bottom: nil, right: contentViewLayer.rightAnchor, paddingTop: 12)
         inputField.anchor(top: subTitleLabel.bottomAnchor, left: contentViewLayer.leftAnchor, bottom: nil, right: contentViewLayer.rightAnchor, paddingTop: 12, height: 40)

@@ -49,4 +49,11 @@ class MainCoordinator: Coordinator {
         vc.coordinator = self
         navigationController.present(navigationVC, animated: true)
     }
+    func dismiss() {
+        if let isPresented = navigationController.visibleViewController?.isModal, isPresented {
+            navigationController.dismiss(animated: true)
+        } else {
+            navigationController.popViewController(animated: true)
+        }
+    }
 }

@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
     @objc func getForecast(sender: UIButton) {
         if let location = pageview.inputField.text, location.count > 2 {
-            let input = location.trimmingCharacters(in: .whitespacesAndNewlines)
+            let input = location.removingWhitespaces()
             coordinator?.navigateToForecase(location: input)
         } else {
             SharedAlert.sharedInstance.alert(view: self, title: "Alert", message: "Please enter atleast 3 characters")
@@ -34,12 +34,5 @@ class ViewController: UIViewController {
     }
     @objc func navigateToSetting() {
         coordinator?.showSettings()
-    }
-}
-
-extension ViewController: UITextFieldDelegate {
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return true
     }
 }
